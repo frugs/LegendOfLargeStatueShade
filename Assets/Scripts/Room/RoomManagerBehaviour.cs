@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Room {
     public class RoomManagerBehaviour : MonoBehaviour {
+        [SerializeField] private GameObject _defaultRoom;
         private IRoomFactory _rooomFactory;
 
         public IRoom CurrentRoom { get; private set; }
@@ -12,7 +13,7 @@ namespace Assets.Scripts.Room {
         }
 
         public void Start() {
-            CurrentRoom = _rooomFactory.CreateRoom(DefaultRoomMap.Room1Id);
+            CurrentRoom = _rooomFactory.CreateRoom(_defaultRoom.GetComponent<IRoom>().Id);
         }
     }
 }
