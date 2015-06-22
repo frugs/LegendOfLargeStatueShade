@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Room {
-    public interface IRoom : IDisposable {
-        Vector2 SizeInWorldUnits { get; }
-        Vector2 CentreInWorldCoords { get; }
+    public interface IRoom {
+        Id<IRoom> Id { get; }
+        Vector2 Size { get; }
+        Vector2 Centre { get; }
+
+        void Activate();
+        void Deactivate();
     }
 }
