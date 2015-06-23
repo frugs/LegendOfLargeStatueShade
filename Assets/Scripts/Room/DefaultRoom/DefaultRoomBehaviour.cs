@@ -1,41 +1,45 @@
-﻿using System;
+﻿using Assets.Scripts.Util;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Assets.Scripts.Util;
-using UnityEditor;
 using UnityEngine;
 
 namespace Assets.Scripts.Room.DefaultRoom {
-    public class DefaultRoomBehaviour : MonoBehaviour, IRoom {
+    using System.Linq;
+
+    public class DefaultRoomBehaviour : RoomBehaviour {
         [SerializeField] private string _id;
 
         [SerializeField] private Vector2 _roomSize;
 
-        public Vector2 RoomSize {
+        public override Id<RoomBehaviour> Id {
+            get { return new Id<RoomBehaviour>(new Guid(_id)); }
+        }
+
+        public override Vector2 Size {
             get { return _roomSize; }
         }
 
-        public ReadOnlyCollection<IDoor> Doors {
-            get { return new List<IDoor>(gameObject.GetComponents<DefaultDoorBehaviour>()).AsReadOnly(); }
-        }
-
-        public Id<IRoom> Id {
-            get { return new Id<IRoom>(new Guid(_id)); }
-        }
-
-        public Vector2 Size {
-            get { return _roomSize; }
-        }
-
-        public Vector2 Centre {
+        public override Vector2 Centre {
             get { return gameObject.transform.position; }
         }
 
-        public void Activate() {
+        public override ReadOnlyCollection<DoorBehaviour> Doors {
+            get {
+                var doors = gameObject.GetComponentsInChildren<DoorBehaviour>(true);
+                return new List<DoorBehaviour>(doors).AsReadOnly();
+            }
+        }
+
+        public override DoorBehaviour GetDoor(Id<DoorBehaviour> doorId) {
+            return Doors.Single(door => doorId.Equals(door.Id));
+        }
+
+        public override void Activate() {
             gameObject.SetActive(true);
         }
 
-        public void Deactivate() {
+        public override void Deactivate() {
             gameObject.SetActive(false);
         }
     }
