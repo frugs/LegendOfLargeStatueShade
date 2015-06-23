@@ -11,6 +11,7 @@ namespace Assets.Scripts.Room {
         public abstract RoomBehaviour Room { get; }
 
         public abstract Vector2 AnchorPosition { get; }
+        public abstract Vector2 ExitDirection { get; }
 
         public abstract Action<DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
         public abstract Action<DoorBehaviour> PlayerExitedThroughDoor { get; set; }

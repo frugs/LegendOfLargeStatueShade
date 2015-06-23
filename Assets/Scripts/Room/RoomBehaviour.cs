@@ -6,8 +6,7 @@ namespace Assets.Scripts.Room {
 
     public abstract class RoomBehaviour : MonoBehaviour {
         abstract public Id<RoomBehaviour> Id { get; }
-        abstract public Vector2 Size { get; }
-        abstract public Vector2 Centre { get; }
+        abstract public Rect Area { get; }
 
         public abstract ReadOnlyCollection<DoorBehaviour> Doors { get; }
         public abstract DoorBehaviour GetDoor(Id<DoorBehaviour> doorId);

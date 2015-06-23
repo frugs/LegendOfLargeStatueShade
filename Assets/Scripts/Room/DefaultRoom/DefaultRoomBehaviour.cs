@@ -16,12 +16,11 @@ namespace Assets.Scripts.Room.DefaultRoom {
             get { return new Id<RoomBehaviour>(new Guid(_id)); }
         }
 
-        public override Vector2 Size {
-            get { return _roomSize; }
-        }
-
-        public override Vector2 Centre {
-            get { return gameObject.transform.position; }
+        public override Rect Area {
+            get {
+                Vector2 position = transform.position;
+                return new Rect(position - (_roomSize / 2), _roomSize);
+            }
         }
 
         public override ReadOnlyCollection<DoorBehaviour> Doors {

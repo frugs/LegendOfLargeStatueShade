@@ -7,7 +7,7 @@ namespace Assets.Scripts.Room.DefaultRoom {
     public class DefaultDoorBehaviour : DoorBehaviour {
         [SerializeField] private string _id;
         [SerializeField] private string _opposingId;
-        [SerializeField] private Vector2 _anchorLocalPosition;
+        [SerializeField] private Vector2 _exitDirection;
 
         public override Id<DoorBehaviour> Id {
             get { return new Id<DoorBehaviour>(new Guid(_id)); }
@@ -22,10 +22,11 @@ namespace Assets.Scripts.Room.DefaultRoom {
         }
 
         public override Vector2 AnchorPosition {
-            get {
-                Vector2 position = transform.position;
-                return _anchorLocalPosition + position;
-            }
+            get { return transform.position; }
+        }
+
+        public override Vector2 ExitDirection {
+            get { return _exitDirection; }
         }
 
         public override Action<DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
