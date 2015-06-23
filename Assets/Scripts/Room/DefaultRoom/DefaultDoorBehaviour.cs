@@ -3,6 +3,8 @@ using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Room.DefaultRoom {
+    using Player;
+
     [RequireComponent(typeof (BoxCollider2D))]
     public class DefaultDoorBehaviour : DoorBehaviour {
         [SerializeField] private string _id;
@@ -29,16 +31,16 @@ namespace Assets.Scripts.Room.DefaultRoom {
             get { return _exitDirection; }
         }
 
-        public override Action<DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
+        public override Action<PlayerBehaviour, DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
 
-        public override Action<DoorBehaviour> PlayerExitedThroughDoor { get; set; }
+        public override Action<PlayerBehaviour, DoorBehaviour> PlayerExitedThroughDoor { get; set; }
 
         public void OnTriggerEnter2D(Collider2D other) {
             var roomManager = GetComponentInParent<RoomManagerBehaviour>();
 
             var player = other.gameObject.GetComponent<PlayerBehaviour>();
             if (player != null && Room == roomManager.CurrentRoom) {
-                PlayerExitedThroughDoor(this);
+                PlayerExitedThroughDoor(player, this);
             }
         }
 
@@ -47,7 +49,7 @@ namespace Assets.Scripts.Room.DefaultRoom {
 
             var player = other.gameObject.GetComponent<PlayerBehaviour>();
             if (player != null && Room != roomManager.CurrentRoom) {
-                PlayerEnteredThroughDoor(this);
+                PlayerEnteredThroughDoor(player, this);
             }
         }
     }

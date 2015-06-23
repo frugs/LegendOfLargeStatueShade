@@ -1,39 +1,44 @@
-﻿using System;
-using UnityEngine;
-using System.Collections;
+﻿namespace Assets.Scripts.Player {
+    using System.Collections;
+    using UnityEngine;
 
-namespace Assets.Scripts {
-
-    [RequireComponent(typeof(Rigidbody2D))]
-    [RequireComponent(typeof(Animator))]
+    [RequireComponent(typeof (Rigidbody2D))]
+    [RequireComponent(typeof (Animator))]
     public class PlayerBehaviour : MonoBehaviour {
+        private static readonly IPlayerController DefaultPlayerController = new InputPlayerController();
 
-        [SerializeField]
-        private float _playerSpeed = 1f;
+        [SerializeField] private float _playerSpeed = 4f;
 
-        [SerializeField]
-        private float _attackTimeoutLength = 0.25f;
+        [SerializeField] private float _attackTimeoutLength = 0.25f;
 
-        [SerializeField]
-        private GameObject _swordObject;
+        [SerializeField] private GameObject _swordObject;
 
         private Animator _animator;
         private Rigidbody2D _rigidBody2D;
 
+        private PlayerControls _playerControlsForFrame = new PlayerControls(Vector2.zero, false);
+
         private bool _isAttacking;
         private float _facingDirection;
+
+        public IPlayerController PlayerController { get; set; }
 
         public void Start() {
             _animator = GetComponent<Animator>();
             _rigidBody2D = GetComponent<Rigidbody2D>();
             _swordObject.SetActive(false);
+            SetDefaultPlayerController();
         }
 
         public void Update() {
-            if (!_isAttacking) {
-                _rigidBody2D.velocity = new Vector2(Input.GetAxis(InputMappings.Horizontal) * _playerSpeed, Input.GetAxis(InputMappings.Vertical) * _playerSpeed);
+            _playerControlsForFrame = PlayerController.ControlPlayer();
+        }
 
-                if (Input.GetButtonDown(InputMappings.Attack)) {
+        public void FixedUpdate() {
+            if (!_isAttacking) {
+                _rigidBody2D.velocity = _playerControlsForFrame.MovementDirection * _playerSpeed;
+
+                if (_playerControlsForFrame.ShouldAttack) {
                     StartAttacking();
                     StartCoroutine(AttackTimeout());
                 }
@@ -47,8 +52,12 @@ namespace Assets.Scripts {
             _animator.SetBool("isAttacking", _isAttacking);
         }
 
+        public void SetDefaultPlayerController() {
+            PlayerController = DefaultPlayerController;
+        }
+
         private void UpdateFacingDirection() {
-            Vector2 velocity = _rigidBody2D.velocity;
+            var velocity = _rigidBody2D.velocity;
             if (velocity.y > 0) {
                 _facingDirection = 180;
             } else if (velocity.y < 0) {

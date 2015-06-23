@@ -19,7 +19,8 @@ namespace Assets.Scripts.Room.DefaultRoom {
         public override Rect Area {
             get {
                 Vector2 position = transform.position;
-                return new Rect(position - (_roomSize / 2), _roomSize);
+                var topLeft = position - (_roomSize / 2);
+                return new Rect(topLeft.x, topLeft.y, _roomSize.x, _roomSize.y);
             }
         }
 

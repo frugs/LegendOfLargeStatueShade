@@ -318,7 +318,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 769811419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2cb4536abb2eed4c9cdab9baa582759, type: 3}
+  m_Script: {fileID: 11500000, guid: e7c33012292012b4cb3ce9e5c7738e68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSpeed: 4
@@ -365,7 +365,6 @@ Transform:
   m_RootOrder: 1
 --- !u!50 &769811424
 Rigidbody2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -374,11 +373,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
+  m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!58 &769811425
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -465,7 +464,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
-  m_StereoMirrorMode: 0
 --- !u!4 &1188037925
 Transform:
   m_ObjectHideFlags: 0
@@ -587,7 +585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: d8c1c99c-7d60-4a44-a0f4-053171b8823b
   _opposingId: 33a52ee9-02b2-44e2-b525-78ebb0b87b20
-  _exitDirection: {x: -1, y: 0}
+  _exitDirection: {x: 1, y: 0}
 --- !u!61 &1470565286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -698,9 +696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 442b233f-0fb3-43e0-b525-78ebb7d60b20
-  _opposingId: 11b8823b-2272-8abc-10d3-001471b772f1
-  _exitDirection: {x: 0, y: -1}
+  _id: af5eaad9-79ad-429e-b56e-ced0c57f931d
+  _opposingId: 60843a76-6635-4df1-8134-43f06a6a2867
+  _exitDirection: {x: 0, y: 1}
 --- !u!1 &1825210741
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 33a52ee9-02b2-44e2-b525-78ebb0b87b20
   _opposingId: d8c1c99c-7d60-4a44-a0f4-053171b8823b
-  _exitDirection: {x: 1, y: 0}
+  _exitDirection: {x: -1, y: 0}
 --- !u!1 &1925035784
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,9 +796,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 11b8823b-2272-8abc-10d3-001471b772f1
-  _opposingId: 442b233f-0fb3-43e0-b525-78ebb7d60b20
-  _exitDirection: {x: 0, y: 1}
+  _id: 60843a76-6635-4df1-8134-43f06a6a2867
+  _opposingId: af5eaad9-79ad-429e-b56e-ced0c57f931d
+  _exitDirection: {x: 0, y: -1}
 --- !u!4 &1925035787
 Transform:
   m_ObjectHideFlags: 0

@@ -2,6 +2,8 @@
 using UnityEngine;
 
 namespace Assets.Scripts.Camera {
+    using Player;
+
     public class MainCameraBehaviour : MonoBehaviour {
         [SerializeField] private PlayerBehaviour _player;
         [SerializeField] private RoomManagerBehaviour _roomManager;

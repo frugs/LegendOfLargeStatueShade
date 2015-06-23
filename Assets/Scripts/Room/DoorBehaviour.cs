@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Room {
     using System;
+    using Player;
 
     public abstract class DoorBehaviour : MonoBehaviour {
         public abstract Id<DoorBehaviour> Id { get; }
@@ -13,7 +14,7 @@ namespace Assets.Scripts.Room {
         public abstract Vector2 AnchorPosition { get; }
         public abstract Vector2 ExitDirection { get; }
 
-        public abstract Action<DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
-        public abstract Action<DoorBehaviour> PlayerExitedThroughDoor { get; set; }
+        public abstract Action<PlayerBehaviour, DoorBehaviour> PlayerEnteredThroughDoor { get; set; }
+        public abstract Action<PlayerBehaviour, DoorBehaviour> PlayerExitedThroughDoor { get; set; }
     }
 }

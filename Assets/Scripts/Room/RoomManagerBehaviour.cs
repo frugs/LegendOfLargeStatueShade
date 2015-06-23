@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace Assets.Scripts.Room {
     using System;
+    using Player;
 
     public class RoomManagerBehaviour : MonoBehaviour {
         [SerializeField] private RoomBehaviour _defaultRoom;
-        
+
         private readonly RoomMap _roomMap = new RoomMap();
 
         public RoomBehaviour CurrentRoom { get; private set; }
@@ -27,16 +28,18 @@ namespace Assets.Scripts.Room {
             CurrentRoom.Activate();
         }
 
-        private void MovePlayerThroughDoor(DoorBehaviour door) {
+        private void MovePlayerThroughDoor(PlayerBehaviour player, DoorBehaviour door) {
             var destinationRoom = _roomMap.GetAdjacentRoom(door);
             AlignRoom(destinationRoom, door);
             destinationRoom.Activate();
+            player.PlayerController = new RoomTransitionPlayerController(door);
 
-            Action<DoorBehaviour> del = null;
-            del = delegate(DoorBehaviour opposingDoor) {
+            Action<PlayerBehaviour, DoorBehaviour> del = null;
+            del = delegate(PlayerBehaviour enteringPlayer, DoorBehaviour opposingDoor) {
                 CurrentRoom.Deactivate();
                 opposingDoor.PlayerEnteredThroughDoor -= del;
                 CurrentRoom = destinationRoom;
+                enteringPlayer.SetDefaultPlayerController();
             };
             destinationRoom.GetDoor(door.OpposingDoorId).PlayerEnteredThroughDoor += del;
         }
