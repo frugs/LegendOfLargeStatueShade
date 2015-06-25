@@ -8,7 +8,7 @@ namespace Assets.Scripts.Room {
 
         public override Rect Area {
             get {
-                var tiledMap = GetComponentInChildren<TiledMap>();
+                var tiledMap = GetComponentsInChildren<TiledMap>(true)[0];
 
                 return new Rect(tiledMap.transform.position.x,
                     tiledMap.transform.position.y - tiledMap.NumTilesHigh,
