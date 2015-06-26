@@ -17,6 +17,10 @@ namespace Assets.Scripts.Camera {
 
         public Action CameraTransistionedRooms { get; set; }
 
+        public void Awake() {
+            CameraTransistionedRooms += () => { };
+        }
+
         public void Start() {
             // FIXME: This never gets unregistered! register/unregister on enable/disable instead
             _roomManager.CurrentRoomUpdated += room => {
