@@ -5,6 +5,12 @@ using Assets.Scripts.Room.DefaultRoom;
 using UnityEngine;
 
 namespace Assets.Scripts.Room {
+    /// <summary>
+    /// <para>
+    /// This class is dependent on having all the Rooms it is managing attached
+    /// to child objects of the gameobject this behaviour is attached to.
+    /// </para>
+    /// </summary>
     public class RoomManagerBehaviour : MonoBehaviour {
         [SerializeField] private RoomBehaviour _defaultRoom;
         [SerializeField] private MainCameraBehaviour _mainCamera;

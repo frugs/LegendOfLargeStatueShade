@@ -5,6 +5,17 @@ using UnityEngine;
 namespace Assets.Scripts.Room.DefaultRoom {
     using Player;
 
+    /// <summary>
+    /// <para>
+    /// This is the go-to implementation of a DoorBehaviour, where the anchor location
+    /// is simply the position of the gameobject transform. Exit direction and ids must 
+    /// be set manually in the Unity editor.
+    /// </para>
+    /// <para>
+    /// This class is dependent on being attached to a child gameobject of the Room
+    /// Manager, and also being a direct child of the Room it is a door of.
+    /// </para>
+    /// </summary>
     [RequireComponent(typeof (BoxCollider2D))]
     public class DefaultDoorBehaviour : DoorBehaviour {
 
