@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="15" tilewidth="16" tileheight="16" nextobjectid="7">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="7">
  <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16">
   <image source="../../../../Pictures/cave.png" width="256" height="336"/>
   <terraintypes>
@@ -413,14 +413,14 @@
    </objectgroup>
   </tile>
  </tileset>
- <layer name="Tile Layer 1" width="21" height="15">
+ <layer name="Tile Layer 1" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJyVk70NwkAMhTPDsQGMQAESHRUVlEADJUdNQZjgkglgA9iEtbCls/T05LuE4pOixH5+/knfNM1eSEInHIW+wEWII9DYu/AUbo6u1jtk0h+aqPsSHqClOiHHBniO2QO/Q03lLXxgFsHJCVSj5hN7ZW/qvc19eNqRangz416vsCPP55d0eZ+WY95amG+imEWGPXi9oje8I54ra9p77Me+2e55xpFqb4Ud5Zc0PY/efk/CeYRPpcv7stu32+Vc77bWBU3Lw38K4zRvWmBW0ERt85xAT/PmFYY0+aYnOW8Fe0eWlfnHQp0hzY3wA6POYk0=
+   eJztlzFOw0AQRecMUIMQ1BgkCpDoqKigJDRQGuoUwAkCDSnhBnATrsWMvGOPhh8nQvGuQfOkr1jWbvS/ZndnTRQEQRAEw1KztljbSa+sedIBq0pCz/M0XufssO5ZLzkDJCTHvvMoOmTdAW2YXzuvSnOeWZOsCRpq58/79d6tUE5VbmwO7xdlWkVV1gQN9S989kn/Kzdaj8iBs+Rm3euqRC2EIepRgiH2eQn+43mF+gfqgd43Gr8O5H5zxZpRc0+4Tu+QVt0fJRB/D6w31pR+ZpGMkyTJOuYcNss764k6/+J90R1kCt6VziH6YH1St87QOkfre0z1sOvI10Bq9EhNvVCe0uePgPaAX0f6vVMTrscXle8J/hxSn1oDke6XmRtznORzlwCtI1sDe+b6feJzjKFH2/WiZ5bfM77XXbAu3fwx5UC1QOfSDeuWxlkPkfRC2fPaD7W39H2H6/NZXvstKId6tb3djhOvuwu0l9d+C8ph82gWHScZxOtRj0qwLIdm0TNtkxqvp9SdV1Ynee239N1hUbZlOc7z2g+CIAiCIAiC4A/xDRNyvJU=
   </data>
  </layer>
- <layer name="Tile Layer 2" width="21" height="15">
+ <layer name="Tile Layer 2" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwHYArEdENsDsQOVzJQBYnMotoGaD7ODEjNhAGSuHxD7A/EsCszUQWJLAnEcEMcD8SoKzPRFYgcAcR4Q50NpckEsEjuBAnOQQS4Dwm0FVDKTFgCWPpExLK3C2Oi0AwX2mePA6hSYCQAN6g7t
+   eJzt1jkOwjAQhWEfAyR6KOjTsF2ApaRhKWlYbsEdOAKnZCxsMYpEkwyaJPyf9BQrTd7Ikp0QAAAA6pl6FzAy8C5gpCtzjL0LGOl5FzAy8i5ghP1oFs4rAL8W/1Nnkrlk4VullnheFimT8J4pz9Um+tyPs6wka8nDp05l+tzvS/aSg+TpU6eypVpvJBfJNT3bZKfWR68SBs7hswc35y7/Ziu5l97l+0PH8y7J3y8/dZ9TSpMVXzL0LAUAAACgk14G5RIF
   </data>
  </layer>
 </map>
