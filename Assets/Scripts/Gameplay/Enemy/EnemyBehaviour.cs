@@ -3,8 +3,25 @@ using UnityEngine;
 
 namespace Assets.Scripts.Gameplay.Enemy {
 
-    [RequireComponent(typeof(HealthBehaviour))]
+    [RequireComponent(typeof(HealthBehaviour), typeof(EnemyAnimationControllerBehaviour))]
     public class EnemyBehaviour : MonoBehaviour {
-        public IHealthModel HealthModel { get { return GetComponent<HealthBehaviour>(); }}
+        private EnemyAnimationControllerBehaviour _enemyAnimationController;
+
+        public IHealthModel HealthModel {
+            get { return GetComponent<HealthBehaviour>(); }
+        }
+
+        public void Start() {
+            _enemyAnimationController = GetComponent<EnemyAnimationControllerBehaviour>();
+            _enemyAnimationController.DeathAnimationFinished += DestroySelf;
+        }
+
+        public void OnDestroy() {
+            _enemyAnimationController.DeathAnimationFinished -= DestroySelf;
+        }
+
+        private void DestroySelf() {
+            Destroy(gameObject);
+        }
     }
 }
