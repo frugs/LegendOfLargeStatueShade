@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Combat {
+namespace Assets.Scripts.Gameplay.Combat {
     public class DamageBehaviour : MonoBehaviour {
         [SerializeField] private DamageType _damageType;
         [SerializeField] private float _damage;

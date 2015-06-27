@@ -1,7 +1,7 @@
 ﻿
-namespace Assets.Scripts.Player {
-    using UnityEngine;
+using UnityEngine;
 
+namespace Assets.Scripts.Gameplay.Player {
     public interface IPlayerController {
         PlayerControls ControlPlayer();
     }

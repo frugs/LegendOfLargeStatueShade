@@ -1,7 +1,7 @@
 ﻿
-namespace Assets.Scripts.Player {
-    using UnityEngine;
+using UnityEngine;
 
+namespace Assets.Scripts.Gameplay.Player {
     public class InputPlayerController : IPlayerController {
         public PlayerControls ControlPlayer() {
             var movementDirection = new Vector2(Input.GetAxis(InputMappings.Horizontal), Input.GetAxis(InputMappings.Vertical));

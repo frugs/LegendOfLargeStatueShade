@@ -1,13 +1,13 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Combat {
+namespace Assets.Scripts.Gameplay.Combat {
     [RequireComponent(typeof (Collider2D))]
-    public class HealthBehaviour : MonoBehaviour {
+    public class HealthBehaviour : MonoBehaviour, IHealthModel {
         private const float DefaultMaxHealth = 5f;
 
         [SerializeField] private float _maxHealth = DefaultMaxHealth;
-        [SerializeField] private float _health;
+        [SerializeField] private float _health = DefaultMaxHealth;
 
         [SerializeField] private DamageVulnerabilityBehaviour _damageVulnerability;
 
@@ -16,6 +16,14 @@ namespace Assets.Scripts.Combat {
 
         public float Health {
             get { return _health; }
+        }
+
+        public void Activate() {
+            gameObject.SetActive(true);
+        }
+        
+        public void Deactivate() {
+            gameObject.SetActive(false);
         }
 
         public void Awake() {
@@ -29,6 +37,10 @@ namespace Assets.Scripts.Combat {
             if (damage != null && _damageVulnerability.IsVulnerableTo(damage)) {
                 _health -= damage.Damage;
                 HurtBy(damage);
+
+                if (_health <= 0) {
+                    Killed(damage);
+                }
             }
         }
     }

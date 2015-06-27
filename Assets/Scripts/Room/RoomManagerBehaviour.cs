@@ -1,6 +1,6 @@
 ﻿using System;
 using Assets.Scripts.Camera;
-using Assets.Scripts.Player;
+using Assets.Scripts.Gameplay.Player;
 using Assets.Scripts.Room.DefaultRoom;
 using UnityEngine;
 

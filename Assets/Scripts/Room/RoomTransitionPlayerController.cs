@@ -1,6 +1,7 @@
 ﻿
+using Assets.Scripts.Gameplay.Player;
+
 namespace Assets.Scripts.Room {
-    using Player;
     using UnityEngine;
 
     class RoomTransitionPlayerController : IPlayerController {

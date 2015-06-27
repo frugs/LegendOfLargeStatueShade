@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Util;
+﻿using Assets.Scripts.Gameplay.Player;
+using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Room {
     using System;
-    using Player;
 
     public abstract class DoorBehaviour : MonoBehaviour {
         public abstract Id<DoorBehaviour> Id { get; }

@@ -1,10 +1,9 @@
 ﻿using System;
+using Assets.Scripts.Gameplay.Player;
 using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Room.DefaultRoom {
-    using Player;
-
     /// <summary>
     /// <para>
     /// This is the go-to implementation of a DoorBehaviour, where the anchor location

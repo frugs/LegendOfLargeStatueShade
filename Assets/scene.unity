@@ -142,7 +142,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 433314389}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b8d6409bbb4ffd48936cdb058e7be29, type: 3}
+  m_Script: {fileID: 11500000, guid: 7038bc1d90345114885548bcdf52a9ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damageType: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 769811419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7c33012292012b4cb3ce9e5c7738e68, type: 3}
+  m_Script: {fileID: 11500000, guid: 557cd894bf0982a4cbfbd8d30c4d538a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSpeed: 4
@@ -875,6 +875,11 @@ GameObject:
   - 4: {fileID: 1839372828}
   - 95: {fileID: 1839372827}
   - 212: {fileID: 1839372826}
+  - 58: {fileID: 1839372829}
+  - 114: {fileID: 1839372830}
+  - 114: {fileID: 1839372831}
+  - 114: {fileID: 1839372832}
+  - 114: {fileID: 1839372833}
   m_Layer: 0
   m_Name: Gloo
   m_TagString: Untagged
@@ -932,11 +937,71 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1839372825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.94292521, y: 10.8145189, z: 0}
+  m_LocalPosition: {x: 7.0999999, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!58 &1839372829
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839372825}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: .300000012
+--- !u!114 &1839372830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839372825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d48da2f94b5ad478a4c4ac2d60788c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 5
+  _health: 5
+  _damageVulnerability: {fileID: 1839372831}
+--- !u!114 &1839372831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839372825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01b95d8c64476148b185bd992bc58ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839372832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839372825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32207bf081576aa4183d6c304b0e9498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839372833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839372825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2a6733cbc13c54caf200e1a4b56469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1926585136
 GameObject:
   m_ObjectHideFlags: 0

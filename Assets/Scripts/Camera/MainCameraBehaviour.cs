@@ -1,10 +1,9 @@
 ﻿using System;
+using Assets.Scripts.Gameplay.Player;
 using Assets.Scripts.Room;
 using UnityEngine;
 
 namespace Assets.Scripts.Camera {
-    using Player;
-
     public class MainCameraBehaviour : MonoBehaviour {
 
         private enum CameraAction { TrackPlayer, TransitionRooms }

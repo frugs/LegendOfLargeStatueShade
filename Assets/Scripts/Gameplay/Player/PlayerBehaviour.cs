@@ -1,7 +1,7 @@
-﻿namespace Assets.Scripts.Player {
-    using System.Collections;
-    using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
+namespace Assets.Scripts.Gameplay.Player {
     [RequireComponent(typeof (Rigidbody2D))]
     [RequireComponent(typeof (Animator))]
     public class PlayerBehaviour : MonoBehaviour {
