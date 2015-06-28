@@ -1,29 +1,41 @@
 ﻿using System;
+using Assets.Scripts.Gameplay.Combat;
 using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Gameplay.Player {
     [RequireComponent(typeof (Rigidbody2D), typeof (PlayerBehaviour), typeof (Animator))]
+    [RequireComponent(typeof (SpriteRenderer))]
     public class PlayerAnimationBehaviour : MonoBehaviour {
-        private Animator _animator;
         private IPlayerModel _playerModel;
+        private IHealthModel _healthModel;
+
+        private Animator _animator;
+        private SpriteRenderer _spriteRenderer;
         private Rigidbody2D _rigidBody2D;
 
         public Action ReturnedToIdle { get; set; }
 
         public void Awake() {
+            var player = GetComponent<PlayerBehaviour>();
+            _playerModel = player.PlayerModel;
+            _healthModel = player.HealthModel;
+
             _animator = GetComponent<Animator>();
-            _playerModel = GetComponent<PlayerBehaviour>().PlayerModel;
+            _spriteRenderer = GetComponent<SpriteRenderer>();
             _rigidBody2D = GetComponent<Rigidbody2D>();
+
             ReturnedToIdle = () => { };
         }
 
         public void Start() {
             _playerModel.DoAttack += PlayAttack;
+            _healthModel.HurtBy += PlayHurt;
         }
 
         public void OnDestroy() {
             _playerModel.DoAttack -= PlayAttack;
+            _healthModel.HurtBy -= PlayHurt;
         }
 
         public void Update() {
@@ -47,6 +59,10 @@ namespace Assets.Scripts.Gameplay.Player {
 
         private void PlayAttack() {
             _animator.SetTrigger("attack");
+        }
+
+        private void PlayHurt(DamageBehaviour damage) {
+            StartCoroutine(AnimationUtil.FlashColourCoroutine(_spriteRenderer, Color.red, 0.5f));
         }
 
         // Called from animation

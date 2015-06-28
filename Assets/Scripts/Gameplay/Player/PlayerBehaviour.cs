@@ -1,28 +1,23 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Gameplay.Combat;
 using UnityEngine;
 
 namespace Assets.Scripts.Gameplay.Player {
     [RequireComponent(typeof (PlayerModelBehaviour))]
-    [RequireComponent(typeof(PlayerAnimationBehaviour))]
+    [RequireComponent(typeof (PlayerAnimationBehaviour))]
+    [RequireComponent(typeof (HealthBehaviour))]
     public class PlayerBehaviour : MonoBehaviour {
         [SerializeField] private GameObject _swordObject;
 
-        private bool _isAttacking;
-        private float _facingDirection;
-        private PlayerModelBehaviour _playerModel;
-        private PlayerAnimationBehaviour _playerAnimation;
+        public IPlayerModel PlayerModel { get; private set; }
 
-        public IPlayerModel PlayerModel {
-            get { return _playerModel; }
-        }
+        public IHealthModel HealthModel { get; private set; }
 
-        public PlayerAnimationBehaviour PlayerAnimation {
-            get { return _playerAnimation; }
-        }
+        public PlayerAnimationBehaviour PlayerAnimation { get; private set; }
 
         public void Awake() {
-            _playerModel = GetComponent<PlayerModelBehaviour>();
-            _playerAnimation = GetComponent<PlayerAnimationBehaviour>();
+            PlayerModel = GetComponent<PlayerModelBehaviour>();
+            HealthModel = GetComponent<HealthBehaviour>();
+            PlayerAnimation = GetComponent<PlayerAnimationBehaviour>();
         }
     }
 }
