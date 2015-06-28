@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8ef22dfdd10ce024fa3f915d6cc1182c
-timeCreated: 1433776852
+timeCreated: 1435512225
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -705,7 +705,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_1
       rect:
@@ -715,7 +715,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_2
       rect:
@@ -725,7 +725,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_3
       rect:
@@ -735,7 +735,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_4
       rect:
@@ -745,7 +745,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_5
       rect:
@@ -755,7 +755,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_6
       rect:
@@ -765,7 +765,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_7
       rect:
@@ -775,7 +775,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_8
       rect:
@@ -785,7 +785,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_9
       rect:
@@ -795,7 +795,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_10
       rect:
@@ -805,7 +805,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_11
       rect:
@@ -815,7 +815,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_12
       rect:
@@ -825,7 +825,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_13
       rect:
@@ -835,7 +835,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_14
       rect:
@@ -845,7 +845,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_15
       rect:
@@ -855,7 +855,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_16
       rect:
@@ -865,7 +865,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_17
       rect:
@@ -875,7 +875,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_18
       rect:
@@ -885,7 +885,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_19
       rect:
@@ -895,7 +895,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_20
       rect:
@@ -905,7 +905,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_21
       rect:
@@ -915,7 +915,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_22
       rect:
@@ -925,7 +925,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_23
       rect:
@@ -935,7 +935,7 @@ TextureImporter:
         width: 18
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_24
       rect:
@@ -945,7 +945,7 @@ TextureImporter:
         width: 18
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_25
       rect:
@@ -955,7 +955,7 @@ TextureImporter:
         width: 18
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_26
       rect:
@@ -965,7 +965,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_27
       rect:
@@ -975,7 +975,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_28
       rect:
@@ -985,7 +985,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_29
       rect:
@@ -995,7 +995,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_30
       rect:
@@ -1005,7 +1005,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_31
       rect:
@@ -1015,7 +1015,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_32
       rect:
@@ -1025,7 +1025,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_33
       rect:
@@ -1035,7 +1035,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_34
       rect:
@@ -1045,7 +1045,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_35
       rect:
@@ -1055,7 +1055,7 @@ TextureImporter:
         width: 30
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_36
       rect:
@@ -1065,7 +1065,7 @@ TextureImporter:
         width: 20
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_37
       rect:
@@ -1075,7 +1075,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_38
       rect:
@@ -1085,7 +1085,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_39
       rect:
@@ -1095,7 +1095,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_40
       rect:
@@ -1105,7 +1105,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_41
       rect:
@@ -1115,7 +1115,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_42
       rect:
@@ -1125,7 +1125,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_43
       rect:
@@ -1135,7 +1135,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_44
       rect:
@@ -1145,7 +1145,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_45
       rect:
@@ -1155,7 +1155,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_46
       rect:
@@ -1165,7 +1165,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_47
       rect:
@@ -1175,7 +1175,7 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_48
       rect:
@@ -1185,7 +1185,7 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_49
       rect:
@@ -1195,7 +1195,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_50
       rect:
@@ -1205,7 +1205,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_51
       rect:
@@ -1215,7 +1215,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_52
       rect:
@@ -1225,7 +1225,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_53
       rect:
@@ -1235,7 +1235,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_54
       rect:
@@ -1245,7 +1245,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_55
       rect:
@@ -1255,7 +1255,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_56
       rect:
@@ -1265,7 +1265,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_57
       rect:
@@ -1275,7 +1275,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_58
       rect:
@@ -1285,7 +1285,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_59
       rect:
@@ -1295,7 +1295,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_60
       rect:
@@ -1305,7 +1305,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_61
       rect:
@@ -1315,7 +1315,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_62
       rect:
@@ -1325,7 +1325,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_63
       rect:
@@ -1335,7 +1335,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_64
       rect:
@@ -1345,7 +1345,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_65
       rect:
@@ -1355,7 +1355,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_66
       rect:
@@ -1365,7 +1365,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_67
       rect:
@@ -1375,7 +1375,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_68
       rect:
@@ -1385,7 +1385,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_69
       rect:
@@ -1395,7 +1395,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_70
       rect:
@@ -1405,7 +1405,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_71
       rect:
@@ -1415,7 +1415,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_72
       rect:
@@ -1425,7 +1425,7 @@ TextureImporter:
         width: 28
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_73
       rect:
@@ -1435,7 +1435,7 @@ TextureImporter:
         width: 32
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_74
       rect:
@@ -1445,7 +1445,7 @@ TextureImporter:
         width: 24
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_75
       rect:
@@ -1455,7 +1455,7 @@ TextureImporter:
         width: 22
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_76
       rect:
@@ -1465,7 +1465,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_77
       rect:
@@ -1475,7 +1475,7 @@ TextureImporter:
         width: 24
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_78
       rect:
@@ -1485,7 +1485,7 @@ TextureImporter:
         width: 30
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_79
       rect:
@@ -1495,7 +1495,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_80
       rect:
@@ -1505,7 +1505,7 @@ TextureImporter:
         width: 26
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_81
       rect:
@@ -1515,7 +1515,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_82
       rect:
@@ -1525,7 +1525,7 @@ TextureImporter:
         width: 22
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_83
       rect:
@@ -1535,7 +1535,7 @@ TextureImporter:
         width: 20
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_84
       rect:
@@ -1545,7 +1545,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_85
       rect:
@@ -1555,7 +1555,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_86
       rect:
@@ -1565,7 +1565,7 @@ TextureImporter:
         width: 17
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_87
       rect:
@@ -1575,7 +1575,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_88
       rect:
@@ -1585,7 +1585,7 @@ TextureImporter:
         width: 21
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_89
       rect:
@@ -1595,7 +1595,7 @@ TextureImporter:
         width: 19
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_90
       rect:
@@ -1605,7 +1605,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_91
       rect:
@@ -1615,7 +1615,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_92
       rect:
@@ -1625,7 +1625,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_93
       rect:
@@ -1635,7 +1635,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_94
       rect:
@@ -1645,7 +1645,7 @@ TextureImporter:
         width: 17
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_95
       rect:
@@ -1655,7 +1655,7 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_96
       rect:
@@ -1665,7 +1665,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_97
       rect:
@@ -1675,7 +1675,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_98
       rect:
@@ -1685,7 +1685,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_99
       rect:
@@ -1695,7 +1695,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_100
       rect:
@@ -1705,7 +1705,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_101
       rect:
@@ -1715,7 +1715,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_102
       rect:
@@ -1725,7 +1725,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_103
       rect:
@@ -1735,7 +1735,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_104
       rect:
@@ -1745,7 +1745,7 @@ TextureImporter:
         width: 24
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_105
       rect:
@@ -1755,7 +1755,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_106
       rect:
@@ -1765,7 +1765,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_107
       rect:
@@ -1775,7 +1775,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_108
       rect:
@@ -1785,7 +1785,7 @@ TextureImporter:
         width: 31
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_109
       rect:
@@ -1795,7 +1795,7 @@ TextureImporter:
         width: 22
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_110
       rect:
@@ -1805,7 +1805,7 @@ TextureImporter:
         width: 19
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_111
       rect:
@@ -1815,7 +1815,7 @@ TextureImporter:
         width: 19
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_112
       rect:
@@ -1825,7 +1825,7 @@ TextureImporter:
         width: 27
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_113
       rect:
@@ -1835,7 +1835,7 @@ TextureImporter:
         width: 26
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_114
       rect:
@@ -1845,7 +1845,7 @@ TextureImporter:
         width: 28
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_115
       rect:
@@ -1855,7 +1855,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_116
       rect:
@@ -1865,7 +1865,7 @@ TextureImporter:
         width: 31
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_117
       rect:
@@ -1875,7 +1875,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_118
       rect:
@@ -1885,7 +1885,7 @@ TextureImporter:
         width: 34
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_119
       rect:
@@ -1895,7 +1895,7 @@ TextureImporter:
         width: 18
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_120
       rect:
@@ -1905,7 +1905,7 @@ TextureImporter:
         width: 19
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_121
       rect:
@@ -1915,7 +1915,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_122
       rect:
@@ -1925,7 +1925,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_123
       rect:
@@ -1935,7 +1935,7 @@ TextureImporter:
         width: 19
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_124
       rect:
@@ -1945,7 +1945,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_125
       rect:
@@ -1955,7 +1955,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_126
       rect:
@@ -1965,7 +1965,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_127
       rect:
@@ -1975,7 +1975,7 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_128
       rect:
@@ -1985,7 +1985,7 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_129
       rect:
@@ -1995,7 +1995,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_130
       rect:
@@ -2005,7 +2005,7 @@ TextureImporter:
         width: 20
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_131
       rect:
@@ -2015,7 +2015,7 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_132
       rect:
@@ -2025,7 +2025,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_133
       rect:
@@ -2035,7 +2035,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_134
       rect:
@@ -2045,7 +2045,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_135
       rect:
@@ -2055,7 +2055,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_136
       rect:
@@ -2065,7 +2065,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_137
       rect:
@@ -2075,7 +2075,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_138
       rect:
@@ -2085,7 +2085,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_139
       rect:
@@ -2095,7 +2095,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_140
       rect:
@@ -2105,7 +2105,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_141
       rect:
@@ -2115,7 +2115,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_142
       rect:
@@ -2125,7 +2125,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_143
       rect:
@@ -2135,7 +2135,7 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_144
       rect:
@@ -2145,7 +2145,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_145
       rect:
@@ -2155,7 +2155,7 @@ TextureImporter:
         width: 7
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_146
       rect:
@@ -2165,7 +2165,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_147
       rect:
@@ -2175,7 +2175,7 @@ TextureImporter:
         width: 20
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_148
       rect:
@@ -2185,7 +2185,7 @@ TextureImporter:
         width: 20
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_149
       rect:
@@ -2195,7 +2195,7 @@ TextureImporter:
         width: 20
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_150
       rect:
@@ -2205,7 +2205,7 @@ TextureImporter:
         width: 24
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_151
       rect:
@@ -2215,7 +2215,7 @@ TextureImporter:
         width: 20
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_152
       rect:
@@ -2225,7 +2225,7 @@ TextureImporter:
         width: 5
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_153
       rect:
@@ -2235,7 +2235,7 @@ TextureImporter:
         width: 5
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_154
       rect:
@@ -2245,7 +2245,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_155
       rect:
@@ -2255,7 +2255,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_156
       rect:
@@ -2265,7 +2265,7 @@ TextureImporter:
         width: 21
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_157
       rect:
@@ -2275,7 +2275,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_158
       rect:
@@ -2285,7 +2285,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_159
       rect:
@@ -2295,7 +2295,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_160
       rect:
@@ -2305,7 +2305,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_161
       rect:
@@ -2315,7 +2315,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_162
       rect:
@@ -2325,7 +2325,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_163
       rect:
@@ -2335,7 +2335,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_164
       rect:
@@ -2345,7 +2345,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_165
       rect:
@@ -2355,7 +2355,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_166
       rect:
@@ -2365,7 +2365,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_167
       rect:
@@ -2375,7 +2375,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_168
       rect:
@@ -2385,7 +2385,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_169
       rect:
@@ -2395,7 +2395,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_170
       rect:
@@ -2405,7 +2405,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_171
       rect:
@@ -2415,7 +2415,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_172
       rect:
@@ -2425,7 +2425,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_173
       rect:
@@ -2435,7 +2435,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_174
       rect:
@@ -2445,7 +2445,7 @@ TextureImporter:
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_175
       rect:
@@ -2455,7 +2455,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_176
       rect:
@@ -2465,7 +2465,7 @@ TextureImporter:
         width: 18
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_177
       rect:
@@ -2475,7 +2475,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_178
       rect:
@@ -2485,7 +2485,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_179
       rect:
@@ -2495,7 +2495,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_180
       rect:
@@ -2505,7 +2505,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_181
       rect:
@@ -2515,7 +2515,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_182
       rect:
@@ -2525,7 +2525,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_183
       rect:
@@ -2535,7 +2535,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_184
       rect:
@@ -2545,7 +2545,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_185
       rect:
@@ -2555,7 +2555,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_186
       rect:
@@ -2565,7 +2565,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_187
       rect:
@@ -2575,7 +2575,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_188
       rect:
@@ -2585,7 +2585,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_189
       rect:
@@ -2595,7 +2595,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_190
       rect:
@@ -2605,7 +2605,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_191
       rect:
@@ -2615,7 +2615,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_192
       rect:
@@ -2625,7 +2625,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_193
       rect:
@@ -2635,7 +2635,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_194
       rect:
@@ -2645,7 +2645,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_195
       rect:
@@ -2655,7 +2655,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_196
       rect:
@@ -2665,7 +2665,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_197
       rect:
@@ -2675,7 +2675,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_198
       rect:
@@ -2685,7 +2685,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_199
       rect:
@@ -2695,7 +2695,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_200
       rect:
@@ -2705,7 +2705,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_201
       rect:
@@ -2715,7 +2715,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_202
       rect:
@@ -2725,7 +2725,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_203
       rect:
@@ -2735,7 +2735,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_204
       rect:
@@ -2745,7 +2745,7 @@ TextureImporter:
         width: 6
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_205
       rect:
@@ -2755,7 +2755,7 @@ TextureImporter:
         width: 12
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_206
       rect:
@@ -2765,7 +2765,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_207
       rect:
@@ -2775,7 +2775,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_208
       rect:
@@ -2785,7 +2785,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_209
       rect:
@@ -2795,7 +2795,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_210
       rect:
@@ -2805,7 +2805,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_211
       rect:
@@ -2815,7 +2815,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_212
       rect:
@@ -2825,7 +2825,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_213
       rect:
@@ -2835,7 +2835,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_214
       rect:
@@ -2845,7 +2845,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_215
       rect:
@@ -2855,7 +2855,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_216
       rect:
@@ -2865,7 +2865,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_217
       rect:
@@ -2875,7 +2875,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_218
       rect:
@@ -2885,7 +2885,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_219
       rect:
@@ -2895,7 +2895,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_220
       rect:
@@ -2905,7 +2905,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_221
       rect:
@@ -2915,7 +2915,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_222
       rect:
@@ -2925,7 +2925,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_223
       rect:
@@ -2935,7 +2935,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_224
       rect:
@@ -2945,7 +2945,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_225
       rect:
@@ -2955,7 +2955,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_226
       rect:
@@ -2965,7 +2965,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_227
       rect:
@@ -2975,7 +2975,7 @@ TextureImporter:
         width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_228
       rect:
@@ -2985,7 +2985,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_229
       rect:
@@ -2995,7 +2995,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_230
       rect:
@@ -3005,7 +3005,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_231
       rect:
@@ -3015,7 +3015,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_232
       rect:
@@ -3025,7 +3025,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_233
       rect:
@@ -3035,7 +3035,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_234
       rect:
@@ -3045,7 +3045,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_235
       rect:
@@ -3055,7 +3055,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_236
       rect:
@@ -3065,7 +3065,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_237
       rect:
@@ -3075,7 +3075,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_238
       rect:
@@ -3085,7 +3085,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_239
       rect:
@@ -3095,7 +3095,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_240
       rect:
@@ -3105,7 +3105,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_241
       rect:
@@ -3115,7 +3115,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_242
       rect:
@@ -3125,7 +3125,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_243
       rect:
@@ -3135,7 +3135,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_244
       rect:
@@ -3145,7 +3145,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_245
       rect:
@@ -3155,7 +3155,7 @@ TextureImporter:
         width: 20
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_246
       rect:
@@ -3165,7 +3165,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_247
       rect:
@@ -3175,7 +3175,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_248
       rect:
@@ -3185,7 +3185,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_249
       rect:
@@ -3195,7 +3195,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_250
       rect:
@@ -3205,7 +3205,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_251
       rect:
@@ -3215,7 +3215,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_252
       rect:
@@ -3225,7 +3225,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_253
       rect:
@@ -3235,7 +3235,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_254
       rect:
@@ -3245,7 +3245,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_255
       rect:
@@ -3255,7 +3255,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_256
       rect:
@@ -3265,7 +3265,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_257
       rect:
@@ -3275,7 +3275,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_258
       rect:
@@ -3285,7 +3285,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_259
       rect:
@@ -3295,7 +3295,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_260
       rect:
@@ -3305,7 +3305,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_261
       rect:
@@ -3315,7 +3315,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_262
       rect:
@@ -3325,7 +3325,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_263
       rect:
@@ -3335,7 +3335,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_264
       rect:
@@ -3345,7 +3345,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_265
       rect:
@@ -3355,7 +3355,7 @@ TextureImporter:
         width: 28
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_266
       rect:
@@ -3365,7 +3365,7 @@ TextureImporter:
         width: 30
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_267
       rect:
@@ -3375,7 +3375,7 @@ TextureImporter:
         width: 32
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_268
       rect:
@@ -3385,7 +3385,7 @@ TextureImporter:
         width: 24
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_269
       rect:
@@ -3395,7 +3395,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_270
       rect:
@@ -3405,7 +3405,7 @@ TextureImporter:
         width: 28
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_271
       rect:
@@ -3415,7 +3415,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_272
       rect:
@@ -3425,7 +3425,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_273
       rect:
@@ -3435,7 +3435,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_274
       rect:
@@ -3445,7 +3445,7 @@ TextureImporter:
         width: 22
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_275
       rect:
@@ -3455,7 +3455,7 @@ TextureImporter:
         width: 22
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_276
       rect:
@@ -3465,7 +3465,7 @@ TextureImporter:
         width: 20
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_277
       rect:
@@ -3475,7 +3475,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_278
       rect:
@@ -3485,7 +3485,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_279
       rect:
@@ -3495,7 +3495,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_280
       rect:
@@ -3505,7 +3505,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_281
       rect:
@@ -3515,7 +3515,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_282
       rect:
@@ -3525,7 +3525,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_283
       rect:
@@ -3535,7 +3535,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_284
       rect:
@@ -3545,7 +3545,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_285
       rect:
@@ -3555,7 +3555,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_286
       rect:
@@ -3565,7 +3565,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_287
       rect:
@@ -3575,7 +3575,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_288
       rect:
@@ -3585,7 +3585,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_289
       rect:
@@ -3595,7 +3595,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_290
       rect:
@@ -3605,7 +3605,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_291
       rect:
@@ -3615,7 +3615,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_292
       rect:
@@ -3625,7 +3625,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_293
       rect:
@@ -3635,7 +3635,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_294
       rect:
@@ -3645,7 +3645,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_295
       rect:
@@ -3655,7 +3655,7 @@ TextureImporter:
         width: 22
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_296
       rect:
@@ -3665,7 +3665,7 @@ TextureImporter:
         width: 23
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_297
       rect:
@@ -3675,7 +3675,7 @@ TextureImporter:
         width: 23
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_298
       rect:
@@ -3685,7 +3685,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_299
       rect:
@@ -3695,7 +3695,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_300
       rect:
@@ -3705,7 +3705,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_301
       rect:
@@ -3715,7 +3715,7 @@ TextureImporter:
         width: 31
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_302
       rect:
@@ -3725,7 +3725,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_303
       rect:
@@ -3735,7 +3735,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_304
       rect:
@@ -3745,7 +3745,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_305
       rect:
@@ -3755,7 +3755,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_306
       rect:
@@ -3765,7 +3765,7 @@ TextureImporter:
         width: 30
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_307
       rect:
@@ -3775,7 +3775,7 @@ TextureImporter:
         width: 30
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_308
       rect:
@@ -3785,7 +3785,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_309
       rect:
@@ -3795,7 +3795,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_310
       rect:
@@ -3805,7 +3805,7 @@ TextureImporter:
         width: 31
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_311
       rect:
@@ -3815,7 +3815,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_312
       rect:
@@ -3825,7 +3825,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_313
       rect:
@@ -3835,7 +3835,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_314
       rect:
@@ -3845,7 +3845,7 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_315
       rect:
@@ -3855,7 +3855,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_316
       rect:
@@ -3865,7 +3865,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_317
       rect:
@@ -3875,7 +3875,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_318
       rect:
@@ -3885,7 +3885,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_319
       rect:
@@ -3895,7 +3895,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_320
       rect:
@@ -3905,7 +3905,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_321
       rect:
@@ -3915,7 +3915,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_322
       rect:
@@ -3925,7 +3925,7 @@ TextureImporter:
         width: 18
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_323
       rect:
@@ -3935,7 +3935,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_324
       rect:
@@ -3945,7 +3945,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_325
       rect:
@@ -3955,7 +3955,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_326
       rect:
@@ -3965,7 +3965,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_327
       rect:
@@ -3975,7 +3975,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_328
       rect:
@@ -3985,7 +3985,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_329
       rect:
@@ -3995,7 +3995,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_330
       rect:
@@ -4005,7 +4005,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_331
       rect:
@@ -4015,7 +4015,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_332
       rect:
@@ -4025,7 +4025,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_333
       rect:
@@ -4035,7 +4035,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_334
       rect:
@@ -4045,7 +4045,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_335
       rect:
@@ -4055,7 +4055,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_336
       rect:
@@ -4065,7 +4065,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_337
       rect:
@@ -4075,7 +4075,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_338
       rect:
@@ -4085,7 +4085,7 @@ TextureImporter:
         width: 9
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_339
       rect:
@@ -4095,7 +4095,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_340
       rect:
@@ -4105,7 +4105,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_341
       rect:
@@ -4115,7 +4115,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_342
       rect:
@@ -4125,7 +4125,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_343
       rect:
@@ -4135,7 +4135,7 @@ TextureImporter:
         width: 25
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_344
       rect:
@@ -4145,7 +4145,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_345
       rect:
@@ -4155,7 +4155,7 @@ TextureImporter:
         width: 5
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_346
       rect:
@@ -4165,7 +4165,7 @@ TextureImporter:
         width: 5
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_347
       rect:
@@ -4175,7 +4175,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_348
       rect:
@@ -4185,7 +4185,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_349
       rect:
@@ -4195,7 +4195,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_350
       rect:
@@ -4205,7 +4205,7 @@ TextureImporter:
         width: 21
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_351
       rect:
@@ -4215,7 +4215,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_352
       rect:
@@ -4225,7 +4225,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_353
       rect:
@@ -4235,7 +4235,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_354
       rect:
@@ -4245,7 +4245,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_355
       rect:
@@ -4255,7 +4255,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_356
       rect:
@@ -4265,7 +4265,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_357
       rect:
@@ -4275,7 +4275,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_358
       rect:
@@ -4285,7 +4285,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_359
       rect:
@@ -4295,7 +4295,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_360
       rect:
@@ -4305,7 +4305,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_361
       rect:
@@ -4315,7 +4315,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_362
       rect:
@@ -4325,7 +4325,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_363
       rect:
@@ -4335,7 +4335,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_364
       rect:
@@ -4345,7 +4345,7 @@ TextureImporter:
         width: 6
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_365
       rect:
@@ -4355,7 +4355,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_366
       rect:
@@ -4365,7 +4365,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_367
       rect:
@@ -4375,7 +4375,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_368
       rect:
@@ -4385,7 +4385,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_369
       rect:
@@ -4395,7 +4395,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_370
       rect:
@@ -4405,7 +4405,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_371
       rect:
@@ -4415,7 +4415,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_372
       rect:
@@ -4425,7 +4425,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_373
       rect:
@@ -4435,7 +4435,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_374
       rect:
@@ -4445,7 +4445,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_375
       rect:
@@ -4455,7 +4455,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_376
       rect:
@@ -4465,7 +4465,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_377
       rect:
@@ -4475,7 +4475,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_378
       rect:
@@ -4485,7 +4485,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_379
       rect:
@@ -4495,7 +4495,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_380
       rect:
@@ -4505,7 +4505,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_381
       rect:
@@ -4515,7 +4515,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_382
       rect:
@@ -4525,7 +4525,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_383
       rect:
@@ -4535,7 +4535,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_384
       rect:
@@ -4545,7 +4545,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_385
       rect:
@@ -4555,7 +4555,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_386
       rect:
@@ -4565,7 +4565,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_387
       rect:
@@ -4575,7 +4575,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_388
       rect:
@@ -4585,7 +4585,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_389
       rect:
@@ -4595,7 +4595,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_390
       rect:
@@ -4605,7 +4605,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_391
       rect:
@@ -4615,7 +4615,7 @@ TextureImporter:
         width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_392
       rect:
@@ -4625,7 +4625,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_393
       rect:
@@ -4635,7 +4635,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_394
       rect:
@@ -4645,7 +4645,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_395
       rect:
@@ -4655,7 +4655,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_396
       rect:
@@ -4705,7 +4705,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_401
       rect:
@@ -4715,7 +4715,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_402
       rect:
@@ -4725,7 +4725,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_403
       rect:
@@ -4735,7 +4735,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_404
       rect:
@@ -4745,7 +4745,7 @@ TextureImporter:
         width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_405
       rect:
@@ -4755,7 +4755,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_406
       rect:
@@ -4765,7 +4765,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_407
       rect:
@@ -4775,7 +4775,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_408
       rect:
@@ -4785,7 +4785,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_409
       rect:
@@ -4795,7 +4795,7 @@ TextureImporter:
         width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_410
       rect:
@@ -4805,7 +4805,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_411
       rect:
@@ -4815,7 +4815,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_412
       rect:
@@ -4825,7 +4825,7 @@ TextureImporter:
         width: 17
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_413
       rect:
@@ -4835,7 +4835,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_414
       rect:
@@ -4845,7 +4845,7 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_415
       rect:
@@ -4855,7 +4855,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_416
       rect:
@@ -4865,7 +4865,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_417
       rect:
@@ -4875,7 +4875,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_418
       rect:
@@ -4885,7 +4885,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_419
       rect:
@@ -4895,7 +4895,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_420
       rect:
@@ -4905,7 +4905,7 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_421
       rect:
@@ -4915,7 +4915,7 @@ TextureImporter:
         width: 20
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_422
       rect:
@@ -4925,7 +4925,7 @@ TextureImporter:
         width: 31
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_423
       rect:
@@ -4935,7 +4935,7 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_424
       rect:
@@ -4945,7 +4945,7 @@ TextureImporter:
         width: 19
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_425
       rect:
@@ -4955,7 +4955,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_426
       rect:
@@ -4965,7 +4965,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_427
       rect:
@@ -4975,7 +4975,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_428
       rect:
@@ -4985,7 +4985,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_429
       rect:
@@ -4995,7 +4995,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_430
       rect:
@@ -5005,7 +5005,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_431
       rect:
@@ -5015,7 +5015,7 @@ TextureImporter:
         width: 19
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_432
       rect:
@@ -5025,7 +5025,7 @@ TextureImporter:
         width: 20
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_433
       rect:
@@ -5035,7 +5035,7 @@ TextureImporter:
         width: 17
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_434
       rect:
@@ -5045,7 +5045,7 @@ TextureImporter:
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_435
       rect:
@@ -5055,7 +5055,7 @@ TextureImporter:
         width: 33
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_436
       rect:
@@ -5065,7 +5065,7 @@ TextureImporter:
         width: 20
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_437
       rect:
@@ -5075,7 +5075,7 @@ TextureImporter:
         width: 27
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_438
       rect:
@@ -5085,7 +5085,7 @@ TextureImporter:
         width: 25
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_439
       rect:
@@ -5095,7 +5095,7 @@ TextureImporter:
         width: 24
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_440
       rect:
@@ -5105,7 +5105,7 @@ TextureImporter:
         width: 25
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_441
       rect:
@@ -5115,7 +5115,7 @@ TextureImporter:
         width: 26
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_442
       rect:
@@ -5125,7 +5125,7 @@ TextureImporter:
         width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_443
       rect:
@@ -5135,7 +5135,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_444
       rect:
@@ -5145,7 +5145,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_445
       rect:
@@ -5155,7 +5155,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_446
       rect:
@@ -5165,7 +5165,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_447
       rect:
@@ -5175,7 +5175,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_448
       rect:
@@ -5185,7 +5185,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_449
       rect:
@@ -5195,7 +5195,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_450
       rect:
@@ -5205,7 +5205,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_451
       rect:
@@ -5215,7 +5215,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_452
       rect:
@@ -5225,7 +5225,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_453
       rect:
@@ -5235,7 +5235,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_454
       rect:
@@ -5245,7 +5245,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_455
       rect:
@@ -5255,7 +5255,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_456
       rect:
@@ -5265,7 +5265,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_457
       rect:
@@ -5275,7 +5275,7 @@ TextureImporter:
         width: 21
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_458
       rect:
@@ -5285,7 +5285,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_459
       rect:
@@ -5295,7 +5295,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_460
       rect:
@@ -5305,7 +5305,7 @@ TextureImporter:
         width: 24
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_461
       rect:
@@ -5315,7 +5315,7 @@ TextureImporter:
         width: 25
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_462
       rect:
@@ -5325,7 +5325,7 @@ TextureImporter:
         width: 25
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_463
       rect:
@@ -5335,7 +5335,7 @@ TextureImporter:
         width: 24
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_464
       rect:
@@ -5345,7 +5345,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_465
       rect:
@@ -5355,7 +5355,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_466
       rect:
@@ -5365,7 +5365,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_467
       rect:
@@ -5375,7 +5375,7 @@ TextureImporter:
         width: 20
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_468
       rect:
@@ -5385,7 +5385,7 @@ TextureImporter:
         width: 20
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_469
       rect:
@@ -5395,7 +5395,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_470
       rect:
@@ -5405,7 +5405,7 @@ TextureImporter:
         width: 16
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_471
       rect:
@@ -5415,7 +5415,7 @@ TextureImporter:
         width: 17
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_472
       rect:
@@ -5425,7 +5425,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_473
       rect:
@@ -5435,7 +5435,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_474
       rect:
@@ -5445,7 +5445,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_475
       rect:
@@ -5455,7 +5455,7 @@ TextureImporter:
         width: 37
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_476
       rect:
@@ -5465,7 +5465,7 @@ TextureImporter:
         width: 34
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_477
       rect:
@@ -5475,7 +5475,7 @@ TextureImporter:
         width: 32
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_478
       rect:
@@ -5485,7 +5485,7 @@ TextureImporter:
         width: 28
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_479
       rect:
@@ -5495,7 +5495,7 @@ TextureImporter:
         width: 22
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_480
       rect:
@@ -5505,7 +5505,7 @@ TextureImporter:
         width: 22
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_481
       rect:
@@ -5515,7 +5515,7 @@ TextureImporter:
         width: 20
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_482
       rect:
@@ -5525,7 +5525,7 @@ TextureImporter:
         width: 20
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_483
       rect:
@@ -5535,7 +5535,7 @@ TextureImporter:
         width: 18
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_484
       rect:
@@ -5545,7 +5545,7 @@ TextureImporter:
         width: 18
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_485
       rect:
@@ -5555,7 +5555,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_486
       rect:
@@ -5565,7 +5565,7 @@ TextureImporter:
         width: 20
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_487
       rect:
@@ -5575,7 +5575,7 @@ TextureImporter:
         width: 19
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_488
       rect:
@@ -5585,7 +5585,7 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_489
       rect:
@@ -5595,7 +5595,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_490
       rect:
@@ -5605,7 +5605,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_491
       rect:
@@ -5615,7 +5615,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_492
       rect:
@@ -5625,7 +5625,7 @@ TextureImporter:
         width: 21
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_493
       rect:
@@ -5635,7 +5635,7 @@ TextureImporter:
         width: 22
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_494
       rect:
@@ -5645,7 +5645,7 @@ TextureImporter:
         width: 22
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_495
       rect:
@@ -5655,7 +5655,7 @@ TextureImporter:
         width: 21
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_496
       rect:
@@ -5665,7 +5665,7 @@ TextureImporter:
         width: 21
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_497
       rect:
@@ -5675,7 +5675,7 @@ TextureImporter:
         width: 21
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_498
       rect:
@@ -5685,7 +5685,7 @@ TextureImporter:
         width: 21
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_499
       rect:
@@ -5695,7 +5695,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_500
       rect:
@@ -5705,7 +5705,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_501
       rect:
@@ -5715,7 +5715,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_502
       rect:
@@ -5725,7 +5725,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_503
       rect:
@@ -5735,7 +5735,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_504
       rect:
@@ -5745,7 +5745,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_505
       rect:
@@ -5755,7 +5755,7 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_506
       rect:
@@ -5764,8 +5764,8 @@ TextureImporter:
         y: 579
         width: 25
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .400000006, y: .649999976}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_507
       rect:
@@ -5774,8 +5774,8 @@ TextureImporter:
         y: 584
         width: 34
         height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .349999994, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_508
       rect:
@@ -5784,8 +5784,8 @@ TextureImporter:
         y: 584
         width: 36
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .300000012, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_509
       rect:
@@ -5794,8 +5794,8 @@ TextureImporter:
         y: 584
         width: 33
         height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .349999994, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_510
       rect:
@@ -5804,8 +5804,8 @@ TextureImporter:
         y: 584
         width: 28
         height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .400000006, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_511
       rect:
@@ -5815,7 +5815,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_512
       rect:
@@ -5825,7 +5825,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_513
       rect:
@@ -5835,7 +5835,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_514
       rect:
@@ -5845,7 +5845,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_515
       rect:
@@ -5854,8 +5854,8 @@ TextureImporter:
         y: 539
         width: 17
         height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .709999979}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_516
       rect:
@@ -5864,8 +5864,8 @@ TextureImporter:
         y: 539
         width: 20
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .699999988}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_517
       rect:
@@ -5875,7 +5875,7 @@ TextureImporter:
         width: 32
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_518
       rect:
@@ -5885,7 +5885,7 @@ TextureImporter:
         width: 35
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_519
       rect:
@@ -5895,7 +5895,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_520
       rect:
@@ -5905,7 +5905,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_521
       rect:
@@ -5915,7 +5915,7 @@ TextureImporter:
         width: 31
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_522
       rect:
@@ -5925,7 +5925,7 @@ TextureImporter:
         width: 31
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_523
       rect:
@@ -5935,7 +5935,7 @@ TextureImporter:
         width: 34
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_524
       rect:
@@ -5945,7 +5945,7 @@ TextureImporter:
         width: 34
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_525
       rect:
@@ -5955,7 +5955,7 @@ TextureImporter:
         width: 19
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_526
       rect:
@@ -5965,7 +5965,7 @@ TextureImporter:
         width: 20
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_527
       rect:
@@ -5975,7 +5975,7 @@ TextureImporter:
         width: 23
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_528
       rect:
@@ -5985,7 +5985,7 @@ TextureImporter:
         width: 23
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_529
       rect:
@@ -5995,7 +5995,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_530
       rect:
@@ -6005,7 +6005,7 @@ TextureImporter:
         width: 25
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_531
       rect:
@@ -6015,7 +6015,7 @@ TextureImporter:
         width: 25
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_532
       rect:
@@ -6025,7 +6025,7 @@ TextureImporter:
         width: 22
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_533
       rect:
@@ -6035,7 +6035,7 @@ TextureImporter:
         width: 32
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_534
       rect:
@@ -6045,7 +6045,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_535
       rect:
@@ -6055,7 +6055,7 @@ TextureImporter:
         width: 30
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_536
       rect:
@@ -6065,7 +6065,7 @@ TextureImporter:
         width: 32
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_537
       rect:
@@ -6075,7 +6075,7 @@ TextureImporter:
         width: 35
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_538
       rect:
@@ -6085,7 +6085,7 @@ TextureImporter:
         width: 32
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_539
       rect:
@@ -6095,7 +6095,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_540
       rect:
@@ -6105,7 +6105,7 @@ TextureImporter:
         width: 31
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_541
       rect:
@@ -6115,7 +6115,7 @@ TextureImporter:
         width: 32
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_542
       rect:
@@ -6125,7 +6125,7 @@ TextureImporter:
         width: 35
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_543
       rect:
@@ -6135,7 +6135,7 @@ TextureImporter:
         width: 14
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_544
       rect:
@@ -6145,7 +6145,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_545
       rect:
@@ -6155,7 +6155,7 @@ TextureImporter:
         width: 19
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_546
       rect:
@@ -6165,7 +6165,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_547
       rect:
@@ -6175,7 +6175,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_548
       rect:
@@ -6185,7 +6185,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_549
       rect:
@@ -6195,7 +6195,7 @@ TextureImporter:
         width: 25
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_550
       rect:
@@ -6205,7 +6205,7 @@ TextureImporter:
         width: 16
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_551
       rect:
@@ -6215,7 +6215,7 @@ TextureImporter:
         width: 15
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_552
       rect:
@@ -6225,7 +6225,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_553
       rect:
@@ -6235,7 +6235,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_554
       rect:
@@ -6245,7 +6245,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_555
       rect:
@@ -6255,7 +6255,7 @@ TextureImporter:
         width: 21
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_556
       rect:
@@ -6265,7 +6265,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_557
       rect:
@@ -6275,7 +6275,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_558
       rect:
@@ -6285,7 +6285,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_559
       rect:
@@ -6295,7 +6295,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_560
       rect:
@@ -6305,7 +6305,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_561
       rect:
@@ -6315,7 +6315,7 @@ TextureImporter:
         width: 24
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_562
       rect:
@@ -6325,7 +6325,7 @@ TextureImporter:
         width: 24
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_563
       rect:
@@ -6335,7 +6335,7 @@ TextureImporter:
         width: 24
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_564
       rect:
@@ -6345,7 +6345,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_565
       rect:
@@ -6355,7 +6355,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_566
       rect:
@@ -6365,7 +6365,7 @@ TextureImporter:
         width: 10
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_567
       rect:
@@ -6375,7 +6375,7 @@ TextureImporter:
         width: 10
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_568
       rect:
@@ -6385,7 +6385,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_569
       rect:
@@ -6395,7 +6395,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_570
       rect:
@@ -6405,7 +6405,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_571
       rect:
@@ -6415,7 +6415,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_572
       rect:
@@ -6425,7 +6425,7 @@ TextureImporter:
         width: 29
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_573
       rect:
@@ -6435,7 +6435,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_574
       rect:
@@ -6445,7 +6445,7 @@ TextureImporter:
         width: 10
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_575
       rect:
@@ -6455,7 +6455,7 @@ TextureImporter:
         width: 10
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_576
       rect:
@@ -6465,7 +6465,7 @@ TextureImporter:
         width: 27
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_577
       rect:
@@ -6475,7 +6475,7 @@ TextureImporter:
         width: 27
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_578
       rect:
@@ -6485,7 +6485,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_579
       rect:
@@ -6495,7 +6495,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_580
       rect:
@@ -6505,7 +6505,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_581
       rect:
@@ -6515,7 +6515,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_582
       rect:
@@ -6525,7 +6525,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_583
       rect:
@@ -6535,7 +6535,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_584
       rect:
@@ -6545,7 +6545,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_585
       rect:
@@ -6555,7 +6555,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_586
       rect:
@@ -6565,7 +6565,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_587
       rect:
@@ -6575,7 +6575,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_588
       rect:
@@ -6585,7 +6585,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_589
       rect:
@@ -6595,7 +6595,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_590
       rect:
@@ -6605,7 +6605,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_591
       rect:
@@ -6615,7 +6615,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_592
       rect:
@@ -6625,7 +6625,7 @@ TextureImporter:
         width: 18
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_593
       rect:
@@ -6635,7 +6635,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_594
       rect:
@@ -6645,7 +6645,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_595
       rect:
@@ -6655,7 +6655,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_596
       rect:
@@ -6665,7 +6665,7 @@ TextureImporter:
         width: 24
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_597
       rect:
@@ -6675,7 +6675,7 @@ TextureImporter:
         width: 20
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_598
       rect:
@@ -6685,7 +6685,7 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_599
       rect:
@@ -6695,7 +6695,7 @@ TextureImporter:
         width: 25
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_600
       rect:
@@ -6705,7 +6705,7 @@ TextureImporter:
         width: 26
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_601
       rect:
@@ -6715,7 +6715,7 @@ TextureImporter:
         width: 23
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_602
       rect:
@@ -6725,7 +6725,7 @@ TextureImporter:
         width: 19
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_603
       rect:
@@ -6735,7 +6735,7 @@ TextureImporter:
         width: 18
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_604
       rect:
@@ -6745,7 +6745,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_605
       rect:
@@ -6755,7 +6755,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_606
       rect:
@@ -6765,7 +6765,7 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_607
       rect:
@@ -6775,7 +6775,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_608
       rect:
@@ -6785,7 +6785,7 @@ TextureImporter:
         width: 30
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_609
       rect:
@@ -6795,7 +6795,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_610
       rect:
@@ -6805,7 +6805,7 @@ TextureImporter:
         width: 17
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_611
       rect:
@@ -6815,7 +6815,7 @@ TextureImporter:
         width: 28
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_612
       rect:
@@ -6825,7 +6825,7 @@ TextureImporter:
         width: 31
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_613
       rect:
@@ -6835,7 +6835,7 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_614
       rect:
@@ -6845,7 +6845,7 @@ TextureImporter:
         width: 21
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_615
       rect:
@@ -6855,7 +6855,7 @@ TextureImporter:
         width: 28
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_616
       rect:
@@ -6865,7 +6865,7 @@ TextureImporter:
         width: 29
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_617
       rect:
@@ -6875,7 +6875,7 @@ TextureImporter:
         width: 29
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_618
       rect:
@@ -6885,7 +6885,7 @@ TextureImporter:
         width: 28
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_619
       rect:
@@ -6895,7 +6895,7 @@ TextureImporter:
         width: 28
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_620
       rect:
@@ -6905,7 +6905,7 @@ TextureImporter:
         width: 19
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_621
       rect:
@@ -6915,7 +6915,7 @@ TextureImporter:
         width: 20
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_622
       rect:
@@ -6925,7 +6925,7 @@ TextureImporter:
         width: 19
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_623
       rect:
@@ -6935,7 +6935,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_624
       rect:
@@ -6945,7 +6945,7 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_625
       rect:
@@ -6955,7 +6955,7 @@ TextureImporter:
         width: 19
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_626
       rect:
@@ -6965,7 +6965,7 @@ TextureImporter:
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_627
       rect:
@@ -6975,7 +6975,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_628
       rect:
@@ -6985,7 +6985,7 @@ TextureImporter:
         width: 30
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_629
       rect:
@@ -6995,7 +6995,7 @@ TextureImporter:
         width: 29
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_630
       rect:
@@ -7005,7 +7005,7 @@ TextureImporter:
         width: 21
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_631
       rect:
@@ -7015,7 +7015,7 @@ TextureImporter:
         width: 20
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_632
       rect:
@@ -7025,7 +7025,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_633
       rect:
@@ -7035,7 +7035,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_634
       rect:
@@ -7045,7 +7045,7 @@ TextureImporter:
         width: 18
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_635
       rect:
@@ -7055,7 +7055,7 @@ TextureImporter:
         width: 41
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_636
       rect:
@@ -7065,7 +7065,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_637
       rect:
@@ -7075,7 +7075,7 @@ TextureImporter:
         width: 10
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_638
       rect:
@@ -7085,7 +7085,7 @@ TextureImporter:
         width: 14
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_639
       rect:
@@ -7095,7 +7095,7 @@ TextureImporter:
         width: 19
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_640
       rect:
@@ -7105,7 +7105,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_641
       rect:
@@ -7115,7 +7115,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_642
       rect:
@@ -7125,7 +7125,7 @@ TextureImporter:
         width: 26
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_643
       rect:
@@ -7135,7 +7135,7 @@ TextureImporter:
         width: 24
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_644
       rect:
@@ -7145,7 +7145,7 @@ TextureImporter:
         width: 25
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_645
       rect:
@@ -7155,7 +7155,7 @@ TextureImporter:
         width: 24
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_646
       rect:
@@ -7165,7 +7165,7 @@ TextureImporter:
         width: 21
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet-mirrored_647
       rect:
@@ -7175,7 +7175,7 @@ TextureImporter:
         width: 20
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
