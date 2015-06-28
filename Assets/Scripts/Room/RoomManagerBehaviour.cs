@@ -33,7 +33,7 @@ namespace Assets.Scripts.Room {
         public void Awake() {
             foreach (var room in GetComponentsInChildren<RoomBehaviour>()) {
                 foreach (var door in room.Doors) {
-                    // FIXME: This never gets unregistered! register/unregister on enable/disable instead
+                    // FIXME: This never gets unregistered! register/unregister on start/destroy instead
                     door.PlayerExitedThroughDoor += MovePlayerThroughDoor;
                 }
 
