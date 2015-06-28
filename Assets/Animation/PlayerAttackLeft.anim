@@ -88,8 +88,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: .300000012
-    functionName: StopAttacking
+  - time: .280000001
+    functionName: ReturnToIdle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

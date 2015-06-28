@@ -50,7 +50,7 @@ namespace Assets.Scripts.Room {
             var destinationRoom = _roomMap.GetAdjacentRoom(door);
             AlignRoom(destinationRoom, door);
             destinationRoom.Activate();
-            player.PlayerController = new RoomTransitionPlayerController(door);
+            player.PlayerModel.PlayerController = new RoomTransitionPlayerController(door);
 
             var fromRoom = CurrentRoom;
             _mainCamera.CameraTransistionedRooms -= _cameraRoomTransitionDelegate;
@@ -64,7 +64,7 @@ namespace Assets.Scripts.Room {
             enteredThroughDoorDelegate = delegate(PlayerBehaviour enteringPlayer, DoorBehaviour opposingDoor) {
                 opposingDoor.PlayerEnteredThroughDoor -= enteredThroughDoorDelegate;
                 CurrentRoom = destinationRoom;
-                enteringPlayer.SetDefaultPlayerController();
+                enteringPlayer.PlayerModel.PlayerController = InputPlayerController.GetInputPlayerController();
             };
             destinationRoom.GetDoor(door.OpposingDoorId).PlayerEnteredThroughDoor += enteredThroughDoorDelegate;
         }

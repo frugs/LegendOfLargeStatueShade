@@ -97,6 +97,7 @@ GameObject:
   - 4: {fileID: 433314391}
   - 60: {fileID: 433314390}
   - 114: {fileID: 433314392}
+  - 114: {fileID: 433314393}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -147,6 +148,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damageType: 0
   _damage: 1
+--- !u!114 &433314393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433314389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416ebf82c0306c243aa18c3a6d3d6ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerBehaviour: {fileID: 769811421}
 --- !u!1 &526246586
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +316,8 @@ GameObject:
   - 50: {fileID: 769811424}
   - 114: {fileID: 769811421}
   - 58: {fileID: 769811425}
+  - 114: {fileID: 769811427}
+  - 114: {fileID: 769811426}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -338,8 +353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557cd894bf0982a4cbfbd8d30c4d538a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerSpeed: 4
-  _attackTimeoutLength: .25
   _swordObject: {fileID: 433314389}
 --- !u!212 &769811422
 SpriteRenderer:
@@ -409,6 +422,28 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -.200000003}
   serializedVersion: 2
   m_Radius: .25
+--- !u!114 &769811426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769811419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb1884119e5115478225d3a21202158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &769811427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769811419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8004455b4f30b418bca728c0594581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &790908595
 GameObject:
   m_ObjectHideFlags: 0
