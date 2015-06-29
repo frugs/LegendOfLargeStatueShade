@@ -1,6 +1,7 @@
 ﻿using System;
 using Assets.Scripts.Gameplay.Player;
 using Assets.Scripts.Room;
+using Assets.Scripts.Util;
 using UnityEngine;
 
 namespace Assets.Scripts.Camera {
@@ -21,10 +22,11 @@ namespace Assets.Scripts.Camera {
         }
 
         public void Start() {
-            // FIXME: This never gets unregistered! register/unregister on enable/disable instead
-            _roomManager.CurrentRoomUpdated += room => {
-                _currentCameraAction = CameraAction.TransitionRooms;
-            };
+            _roomManager.CurrentRoomUpdated += UpdateCameraAction;
+        }
+
+        public void OnDestroy() {
+            _roomManager.CurrentRoomUpdated -= UpdateCameraAction;
         }
 
         public void Update() {
@@ -45,24 +47,28 @@ namespace Assets.Scripts.Camera {
                 ? roomArea.center.y
                 : Mathf.Clamp(playerY, roomArea.yMin + (cameraHeight / 2), roomArea.yMax - (cameraHeight / 2));
 
+            var targetDestination = new Vector3(targetX, targetY, transform.position.z);
+
             switch (_currentCameraAction) {
                 case CameraAction.TrackPlayer: {
-                    _currentCameraVelocity = Vector3.zero;
-                    transform.position = new Vector3(targetX, targetY, transform.position.z);
+                    transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.05f);
                     break; 
                 }
 
                 case CameraAction.TransitionRooms: {
-                    var targetDestination = new Vector3(targetX, targetY, transform.position.z);
-                    transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.25f);
+                    transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.2f);
 
-                    if (targetDestination == transform.position) {
+                    if (Vector2Util.WithinRange(targetDestination, transform.position, 0.01f)) {
                         CameraTransistionedRooms();
                         _currentCameraAction = CameraAction.TrackPlayer;
                     }
                     break;
                 }
             }
+        }
+
+        private void UpdateCameraAction(RoomBehaviour room) {
+            _currentCameraAction = CameraAction.TransitionRooms;
         }
     }
 }

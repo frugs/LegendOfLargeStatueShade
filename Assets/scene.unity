@@ -220,7 +220,7 @@ Transform:
   - {fileID: 1568165596}
   - {fileID: 790908596}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &566075214
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ GameObject:
   - 114: {fileID: 647549756}
   - 61: {fileID: 647549755}
   m_Layer: 0
-  m_Name: Door2
+  m_Name: Door2A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,8 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 1553c0a2-352e-4239-911c-b3808ac6ed97
-  _opposingId: 271f475a-f1dd-442d-89af-7d447318b236
+  _opposingDoor: {fileID: 1926585139}
   _exitDirection: {x: 0, y: 1}
 --- !u!1 &769811419
 GameObject:
@@ -826,7 +825,7 @@ GameObject:
   - 114: {fileID: 1470565285}
   - 61: {fileID: 1470565286}
   m_Layer: 8
-  m_Name: Door1
+  m_Name: Door1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,8 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: d8c1c99c-7d60-4a44-a0f4-053171b8823b
-  _opposingId: 33a52ee9-02b2-44e2-b525-78ebb0b87b20
+  _opposingDoor: {fileID: 1825210744}
   _exitDirection: {x: 0, y: 1}
 --- !u!61 &1470565286
 BoxCollider2D:
@@ -988,7 +986,7 @@ GameObject:
   - 114: {fileID: 1825210744}
   - 61: {fileID: 1825210743}
   m_Layer: 0
-  m_Name: Door1
+  m_Name: Door1B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1030,8 +1028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 33a52ee9-02b2-44e2-b525-78ebb0b87b20
-  _opposingId: d8c1c99c-7d60-4a44-a0f4-053171b8823b
+  _opposingDoor: {fileID: 1470565285}
   _exitDirection: {x: 0, y: -1}
 --- !u!1 &1839372825
 GameObject:
@@ -1210,7 +1207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &1877240869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,7 +1231,7 @@ GameObject:
   - 114: {fileID: 1926585139}
   - 61: {fileID: 1926585138}
   m_Layer: 0
-  m_Name: Door2
+  m_Name: Door2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1276,6 +1273,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad711d8872d1c140a6967eb697aac69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 271f475a-f1dd-442d-89af-7d447318b236
-  _opposingId: 1553c0a2-352e-4239-911c-b3808ac6ed97
+  _opposingDoor: {fileID: 647549756}
   _exitDirection: {x: 0, y: -1}
