@@ -1,9 +1,9 @@
-﻿
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Tiled2Unity;
+using UnityEngine;
+
 namespace Assets.Scripts.Room {
-    using DefaultRoom;
-    using Tiled2Unity;
-    using UnityEngine;
-    
     /// <summary>
     /// <para>
     /// This class is dependent on having prefab instances of maps imported from the
@@ -11,8 +11,7 @@ namespace Assets.Scripts.Room {
     /// is attached to.
     /// </para>
     /// </summary>
-    public class TiledRoomBehaviour : DefaultRoomBehaviour {
-
+    public class TiledRoomBehaviour : RoomBehaviour {
         public override Rect Area {
             get {
                 var tiledMap = GetComponentsInChildren<TiledMap>(true)[0];
@@ -22,6 +21,25 @@ namespace Assets.Scripts.Room {
                     tiledMap.NumTilesWide,
                     tiledMap.NumTilesHigh);
             }
+        }
+
+        public override ReadOnlyCollection<DoorBehaviour> Doors {
+            get {
+                var doors = gameObject.GetComponentsInChildren<DoorBehaviour>(true);
+                return new List<DoorBehaviour>(doors).AsReadOnly();
+            }
+        }
+
+        public override void Activate() {
+            gameObject.SetActive(true);
+        }
+
+        public override void Deactivate() {
+            gameObject.SetActive(false);
+        }
+
+        public void Awake() {
+            Deactivate();
         }
     }
 }

@@ -2,12 +2,13 @@
 using Assets.Scripts.Gameplay.Player;
 using UnityEngine;
 
-namespace Assets.Scripts.Room.DefaultRoom {
+namespace Assets.Scripts.Room {
     /// <summary>
     /// <para>
     /// This is the go-to implementation of a DoorBehaviour, where the anchor location
-    /// is simply the position of the gameobject transform. Exit direction must 
-    /// be set manually in the Unity editor.
+    /// is simply the position of the gameobject transform. Alignment (vertical or horizontal) is set
+    /// in the Unity editor, and then exit direction is calculated from the relative positions of this
+    /// door and the opposing door's parent rooms.
     /// </para>
     /// <para>
     /// This class is dependent on being a direct child of the Room it is a door of.
@@ -15,8 +16,13 @@ namespace Assets.Scripts.Room.DefaultRoom {
     /// </summary>
     [RequireComponent(typeof (BoxCollider2D))]
     public class DefaultDoorBehaviour : DoorBehaviour {
+        public enum Alignment {
+            Vertical,
+            Horizontal
+        }
+
         [SerializeField] private DoorBehaviour _opposingDoor;
-        [SerializeField] private Vector2 _exitDirection;
+        [SerializeField] private Alignment _alignment;
 
         private Action<PlayerBehaviour, DoorBehaviour> _playerExitedThroughDoor = (player, door) => { };
         private Action<PlayerBehaviour, DoorBehaviour> _playerEnteredThroughDoor = (player, door) => { };
@@ -34,7 +40,19 @@ namespace Assets.Scripts.Room.DefaultRoom {
         }
 
         public override Vector2 ExitDirection {
-            get { return _exitDirection; }
+            get {
+                float self = _alignment == Alignment.Horizontal 
+                    ? Room.Area.center.x 
+                    : Room.Area.center.y;
+                float opposing = _alignment == Alignment.Horizontal
+                    ? OpposingDoor.Room.Area.center.x
+                    : OpposingDoor.Room.Area.center.y;
+
+                float direction = opposing - self;
+                return _alignment == Alignment.Horizontal
+                    ? new Vector2(direction, 0).normalized
+                    : new Vector2(0, direction).normalized;
+            }
         }
 
         public override Action<PlayerBehaviour, DoorBehaviour> PlayerEnteredThroughDoor {

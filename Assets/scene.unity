@@ -263,8 +263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f8dbceb5003cc4db46b54d6739289f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 9D7272D1-535A-44B4-A732-A943929f9A48
-  _roomSize: {x: 0, y: 0}
 --- !u!1 &647549753
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _opposingDoor: {fileID: 1926585139}
-  _exitDirection: {x: 0, y: 1}
+  _alignment: 0
 --- !u!1 &769811419
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,8 +540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f8dbceb5003cc4db46b54d6739289f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 271f475a-f1dd-442d-89af-7d447318b236
-  _roomSize: {x: 0, y: 0}
 --- !u!1001 &832179923
 Prefab:
   m_ObjectHideFlags: 0
@@ -855,7 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _opposingDoor: {fileID: 1825210744}
-  _exitDirection: {x: 0, y: 1}
+  _alignment: 0
 --- !u!61 &1470565286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -973,8 +969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f8dbceb5003cc4db46b54d6739289f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: e4095451-6146-4049-bbee-90ac48a90d8b
-  _roomSize: {x: 0, y: 0}
 --- !u!1 &1825210741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _opposingDoor: {fileID: 1470565285}
-  _exitDirection: {x: 0, y: -1}
+  _alignment: 0
 --- !u!1 &1839372825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,4 +1268,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _opposingDoor: {fileID: 647549756}
-  _exitDirection: {x: 0, y: -1}
+  _alignment: 0
