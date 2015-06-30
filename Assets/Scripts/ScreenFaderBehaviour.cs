@@ -12,7 +12,7 @@ namespace Assets.Scripts {
 
         public IEnumerable FadeToColour(Color colour) {
             var elapsedTime = 0f;
-            var time = 1f;
+            var time = 0.75f;
 
             while (elapsedTime < time) {
                 _background.color = Color.Lerp(_background.color, colour, elapsedTime);
