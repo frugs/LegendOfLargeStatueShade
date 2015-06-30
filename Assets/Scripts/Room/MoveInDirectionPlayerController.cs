@@ -4,11 +4,11 @@ using Assets.Scripts.Gameplay.Player;
 namespace Assets.Scripts.Room {
     using UnityEngine;
 
-    class RoomTransitionPlayerController : IPlayerController {
+    class MoveInDirectionPlayerController : IPlayerController {
         private readonly Vector2 _movementDirection;
 
-        public RoomTransitionPlayerController(DoorBehaviour exitDoor) {
-            _movementDirection = exitDoor.ExitDirection;
+        public MoveInDirectionPlayerController(Vector2 movementDirection) {
+            _movementDirection = movementDirection;
         }
 
         public PlayerControls ControlPlayer() {

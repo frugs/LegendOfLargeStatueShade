@@ -8,6 +8,10 @@ namespace Assets.Scripts.Room {
 
         [SerializeField] private RoomBehaviour _startingRoom;
 
+        public ICurrentRoomModel CurrentRoomModel {
+            get { return _currentRoomModel; }
+        }
+
         public void Awake() {
             _currentRoomModel.CurrentRoom = _startingRoom;
             _currentRoomModel.CurrentRoomUpdated = (fromRoom, toRoom) => { };
@@ -22,10 +26,27 @@ namespace Assets.Scripts.Room {
             UnregisterRoomCallbacks(_currentRoomModel.CurrentRoom);
         }
 
-        private void UpdateCurrentRoom(PlayerBehaviour player, DoorBehaviour door) {
-            var fromRoom = _currentRoomModel.CurrentRoom;
-            var toRoom = door.OpposingDoor.Room;
+        private void RegisterRoomCallbacks(RoomBehaviour room) {
+            foreach (var door in room.Doors) {
+                door.PlayerExitedThroughDoor += UpdateCurrentRoomThroughDoor;
+            }
 
+            foreach (var areaTransition in room.AreaTransitions) {
+                areaTransition.OldAreaFadeOutFinished += UpdateCurrentRoomThroughAreaTransition;
+            }
+        }
+
+        private void UnregisterRoomCallbacks(RoomBehaviour room) {
+            foreach (var door in room.Doors) {
+                door.PlayerExitedThroughDoor -= UpdateCurrentRoomThroughDoor;
+            }
+
+            foreach (var areaTransition in room.AreaTransitions) {
+                areaTransition.OldAreaFadeOutFinished -= UpdateCurrentRoomThroughAreaTransition;
+            }
+        }
+
+        private void UpdateCurrentRoom(RoomBehaviour fromRoom, RoomBehaviour toRoom) {
             _currentRoomModel.CurrentRoom = toRoom;
             _currentRoomModel.CurrentRoomUpdated(fromRoom, toRoom);
 
@@ -33,20 +54,18 @@ namespace Assets.Scripts.Room {
             RegisterRoomCallbacks(toRoom);
         }
 
-        private void RegisterRoomCallbacks(RoomBehaviour room) {
-            foreach (var door in room.Doors) {
-                door.PlayerExitedThroughDoor += UpdateCurrentRoom;
-            }
+        private void UpdateCurrentRoomThroughDoor(PlayerBehaviour player, DoorBehaviour door) {
+            var fromRoom = _currentRoomModel.CurrentRoom;
+            var toRoom = door.OpposingDoor.Room;
+
+            UpdateCurrentRoom(fromRoom, toRoom);
         }
 
-        private void UnregisterRoomCallbacks(RoomBehaviour room) {
-            foreach (var door in room.Doors) {
-                door.PlayerExitedThroughDoor -= UpdateCurrentRoom;
-            }
-        }
+        private void UpdateCurrentRoomThroughAreaTransition(AreaTransitionBehaviour areaTransition) {
+            var fromRoom = _currentRoomModel.CurrentRoom;
+            var toRoom = areaTransition.OpposingAreaTransition.Room;
 
-        public ICurrentRoomModel CurrentRoomModel {
-            get { return _currentRoomModel; }
+            UpdateCurrentRoom(fromRoom, toRoom);
         }
 
         private class CurrentRoomModelImpl : ICurrentRoomModel {

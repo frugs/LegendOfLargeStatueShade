@@ -24,7 +24,7 @@ namespace Assets.Scripts.Room {
                 exitDoor.PlayerExitedThroughDoor -= MovePlayerThroughDoor;
             }
 
-            player.PlayerModel.PlayerController = new RoomTransitionPlayerController(door);
+            player.PlayerModel.PlayerController = new MoveInDirectionPlayerController(door.ExitDirection);
 
             Action<PlayerBehaviour, DoorBehaviour> enteredThroughDoorDelegate = null;
             enteredThroughDoorDelegate = (enteringPlayer, entryDoor) => {
