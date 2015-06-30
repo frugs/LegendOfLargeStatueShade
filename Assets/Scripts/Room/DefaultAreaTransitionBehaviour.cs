@@ -4,7 +4,6 @@ using System.Linq;
 using Assets.Scripts.Camera;
 using Assets.Scripts.Gameplay.Player;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.Scripts.Room {
     /// <summary>
@@ -19,8 +18,7 @@ namespace Assets.Scripts.Room {
     /// </summary>
     public class DefaultAreaTransitionBehaviour : AreaTransitionBehaviour {
         [SerializeField] private MainCameraBehaviour _mainCamera;
-        // TODO: Maybe extract out screen fading stuff
-        [SerializeField] private Image _fadeImage;
+        [SerializeField] private ScreenFaderBehaviour _screenFader;
         [SerializeField] private AreaTransitionBehaviour _opposingAreaTransition;
         [SerializeField] private Alignment _alignment;
 
@@ -42,8 +40,6 @@ namespace Assets.Scripts.Room {
         public override Action<PlayerBehaviour, AreaTransitionBehaviour> PlayerEntryThroughAreaTransition { get; set; }
 
         public void Awake() {
-            _fadeImage.rectTransform.localScale = new Vector2(Screen.width, Screen.height);
-
             PlayerExitThroughAreaTransition = (player, area) => { };
             OldAreaFadeOutFinished = area => { };
             NewAreaFadeInFinished = area => { };
@@ -90,13 +86,8 @@ namespace Assets.Scripts.Room {
         }
 
         private IEnumerator FadeOutCoroutine(PlayerBehaviour player) {
-            var elapsedTime = 0f;
-            var time = 1f;
-
-            while (elapsedTime < time) {
-                _fadeImage.color = Color.Lerp(_fadeImage.color, Color.black, elapsedTime);
-                elapsedTime += Time.deltaTime;
-                yield return null;
+            foreach (var frame in _screenFader.FadeToColour(Color.black)) {
+                yield return frame;
             }
 
             Room.Deactivate();
@@ -132,13 +123,8 @@ namespace Assets.Scripts.Room {
         }
 
         private IEnumerator FadeInCoroutine() {
-            var elapsedTime = 0f;
-            var time = 1f;
-
-            while (elapsedTime < time) {
-                _fadeImage.color = Color.Lerp(_fadeImage.color, Color.clear, elapsedTime);
-                elapsedTime += Time.deltaTime;
-                yield return null;
+            foreach (var frame in _screenFader.FadeToColour(Color.clear)) {
+                yield return frame;
             }
             NewAreaFadeInFinished(this);
         }
