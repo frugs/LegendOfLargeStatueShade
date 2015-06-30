@@ -10,7 +10,9 @@ namespace Assets.Scripts.Camera {
         private enum CameraAction { TrackPlayer, TransitionRooms }
 
         [SerializeField] private PlayerBehaviour _player;
-        [SerializeField] private RoomManagerBehaviour _roomManager;
+        [SerializeField] private CurrentRoomBehaviour _currentRoom;
+
+        private ICurrentRoomModel _currentRoomModel;
 
         private Vector3 _currentCameraVelocity;
         private CameraAction _currentCameraAction = CameraAction.TrackPlayer;
@@ -18,15 +20,16 @@ namespace Assets.Scripts.Camera {
         public Action CameraTransistionedRooms { get; set; }
 
         public void Awake() {
+            _currentRoomModel = _currentRoom.CurrentRoomModel;
             CameraTransistionedRooms += () => { };
         }
 
         public void Start() {
-            _roomManager.CurrentRoomUpdated += UpdateCameraAction;
+            _currentRoomModel.CurrentRoomUpdated += UpdateCameraAction;
         }
 
         public void OnDestroy() {
-            _roomManager.CurrentRoomUpdated -= UpdateCameraAction;
+            _currentRoomModel.CurrentRoomUpdated -= UpdateCameraAction;
         }
 
         public void Update() {
@@ -35,7 +38,7 @@ namespace Assets.Scripts.Camera {
             var cameraHeight = mainCamera.orthographicSize * 2;
             var cameraWidth = mainCamera.aspect * cameraHeight;
 
-            var roomArea = _roomManager.CurrentRoom.Area;
+            var roomArea = _currentRoomModel.CurrentRoom.Area;
 
             var playerX = _player.transform.position.x;
             var targetX = cameraWidth > roomArea.width
@@ -67,7 +70,7 @@ namespace Assets.Scripts.Camera {
             }
         }
 
-        private void UpdateCameraAction(RoomBehaviour room) {
+        private void UpdateCameraAction(RoomBehaviour fromRoom, RoomBehaviour toRoom) {
             _currentCameraAction = CameraAction.TransitionRooms;
         }
     }

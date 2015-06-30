@@ -30,6 +30,13 @@ namespace Assets.Scripts.Room {
             }
         }
 
+        public override ReadOnlyCollection<AreaTransitionBehaviour> AreaTransitions {
+            get {
+                var areaTransitions = gameObject.GetComponentsInChildren<AreaTransitionBehaviour>(true);
+                return new List<AreaTransitionBehaviour>(areaTransitions).AsReadOnly();
+            }
+        }
+
         public override void Activate() {
             gameObject.SetActive(true);
         }

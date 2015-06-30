@@ -41,17 +41,10 @@ namespace Assets.Scripts.Room {
 
         public override Vector2 ExitDirection {
             get {
-                float self = _alignment == Alignment.Horizontal 
-                    ? Room.Area.center.x 
-                    : Room.Area.center.y;
-                float opposing = _alignment == Alignment.Horizontal
-                    ? OpposingDoor.Room.Area.center.x
-                    : OpposingDoor.Room.Area.center.y;
+                var self = Room.Area.center;
+                var other = OpposingDoor.Room.Area.center;
 
-                float direction = opposing - self;
-                return _alignment == Alignment.Horizontal
-                    ? new Vector2(direction, 0).normalized
-                    : new Vector2(0, direction).normalized;
+                return CalculateRelativeDirection(self, other, _alignment);
             }
         }
 
@@ -67,16 +60,32 @@ namespace Assets.Scripts.Room {
 
         public void OnTriggerEnter2D(Collider2D other) {
             var player = other.gameObject.GetComponent<PlayerBehaviour>();
-            if (player != null) {
+            if (player != null && PlayerDirectionEqualsExitDirection(player)) {
                 PlayerExitedThroughDoor(player, this);
             }
         }
 
         public void OnTriggerExit2D(Collider2D other) {
             var player = other.gameObject.GetComponent<PlayerBehaviour>();
-            if (player != null) {
+            if (player != null && PlayerDirectionEqualsExitDirection(player)) {
                 PlayerEnteredThroughDoor(player, this);
             }
+        }
+
+        private bool PlayerDirectionEqualsExitDirection(PlayerBehaviour player) {
+            Vector2 playerPos = player.gameObject.transform.position;
+            Vector2 exitPos = transform.position;
+
+            return CalculateRelativeDirection(playerPos, exitPos, _alignment) == ExitDirection;
+        }
+
+        private static Vector2 CalculateRelativeDirection(Vector2 self, Vector2 other, Alignment alignment) {
+            var selfValue = alignment == Alignment.Horizontal ? self.x : self.y;
+            var otherValue = alignment == Alignment.Horizontal ? other.x : other.y;
+
+            return alignment == Alignment.Horizontal
+                ? new Vector2(otherValue - selfValue, 0).normalized
+                : new Vector2(0, otherValue - selfValue).normalized;
         }
     }
 }
