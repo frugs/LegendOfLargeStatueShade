@@ -81,39 +81,34 @@ namespace Assets.Scripts.Room {
         }
 
         private void PlayerOffscreen(PlayerBehaviour player) {
-            StartCoroutine(FadeOutCoroutine(player));
+            _screenFader.FadedOut += () => {
+                Room.Deactivate();
+
+                var opposingRoom1 = OpposingAreaTransition.Room;
+                opposingRoom1.gameObject.transform.position = transform.position;
+
+                Vector3 offset1 = OpposingAreaTransition.ExitDirection * 2;
+                player.transform.position = OpposingAreaTransition.transform.position + offset1;
+
+                Vector2 cameraTarget1 = player.transform.position;
+                _mainCamera.gameObject.transform.Translate(cameraTarget1, _mainCamera.gameObject.transform);
+
+                _mainCamera.CameraReturnedToTrackingPlayer += CameraUpdated(player);
+
+                opposingRoom1.Activate();
+
+                OldAreaFadeOutFinished(this);
+            };
+            _screenFader.FadeOut();
+            
             player.PlayerModel.PlayerController = new MoveInDirectionPlayerController(Vector2.zero);
         }
 
-        private IEnumerator FadeOutCoroutine(PlayerBehaviour player) {
-            foreach (var frame in _screenFader.FadeToColour(Color.black)) {
-                yield return frame;
-            }
-
-            Room.Deactivate();
-
-            var opposingRoom = OpposingAreaTransition.Room;
-            opposingRoom.gameObject.transform.position = transform.position;
-
-            Vector3 offset = OpposingAreaTransition.ExitDirection * 2;
-            player.transform.position = OpposingAreaTransition.transform.position + offset;
-
-            Vector2 cameraTarget = player.transform.position;
-            _mainCamera.gameObject.transform.Translate(cameraTarget, _mainCamera.gameObject.transform);
-
-            _mainCamera.CameraReturnedToTrackingPlayer += CameraUpdated(player);
-
-            opposingRoom.Activate();
-
-            OldAreaFadeOutFinished(this);
-
-            // FIXME: Implicit dependency on the fact that the above call updates the current room, which in turn
-            //        updates the camera target
-            _mainCamera.ResetCamera();
-        }
-
         private void PlayerOnScreen() {
-            StartCoroutine(FadeInCoroutine());
+            _screenFader.FadedIn += () => {
+                NewAreaFadeInFinished(this);
+            };
+            _screenFader.FadeIn();
         }
 
         private Action CameraUpdated(PlayerBehaviour player) {
@@ -127,9 +122,7 @@ namespace Assets.Scripts.Room {
         }
 
         private IEnumerator FadeInCoroutine() {
-            foreach (var frame in _screenFader.FadeToColour(Color.clear)) {
-                yield return frame;
-            }
+            yield return null;
             NewAreaFadeInFinished(this);
         }
 

@@ -8,12 +8,12 @@ namespace Assets.Scripts.Camera {
     public class MainCameraBehaviour : MonoBehaviour {
         private enum CameraAction {
             TrackPlayer,
-            TransitionRooms,
-            Reset
+            TransitionRooms
         }
 
         [SerializeField] private PlayerBehaviour _player;
         [SerializeField] private CurrentRoomBehaviour _currentRoom;
+        [SerializeField] private ScreenFaderBehaviour _screenFader;
 
         private ICurrentRoomModel _currentRoomModel;
 
@@ -21,10 +21,6 @@ namespace Assets.Scripts.Camera {
         private CameraAction _currentCameraAction = CameraAction.TrackPlayer;
 
         public Action CameraReturnedToTrackingPlayer { get; set; }
-
-        public void ResetCamera() {
-            _currentCameraAction = CameraAction.Reset;
-        }
 
         public void Awake() {
             _currentRoomModel = _currentRoom.CurrentRoomModel;
@@ -66,19 +62,14 @@ namespace Assets.Scripts.Camera {
                 }
 
                 case CameraAction.TransitionRooms: {
-                    transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.2f);
+                    transform.position = _screenFader.IsFadedOut 
+                        ? targetDestination 
+                        : Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.2f);
 
                     if (Vector2Util.WithinRange(targetDestination, transform.position, 0.01f)) {
                         CameraReturnedToTrackingPlayer();
                         _currentCameraAction = CameraAction.TrackPlayer;
                     }
-                    break;
-                }
-
-                case CameraAction.Reset: {
-                    transform.position = targetDestination;
-                    CameraReturnedToTrackingPlayer();
-                    _currentCameraAction = CameraAction.TrackPlayer;
                     break;
                 }
             }

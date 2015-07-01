@@ -937,6 +937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 769811421}
   _currentRoom: {fileID: 710867514}
+  _screenFader: {fileID: 2047294624}
 --- !u!1 &1200144569
 GameObject:
   m_ObjectHideFlags: 0
