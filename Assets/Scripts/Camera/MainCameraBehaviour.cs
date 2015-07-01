@@ -6,8 +6,11 @@ using UnityEngine;
 
 namespace Assets.Scripts.Camera {
     public class MainCameraBehaviour : MonoBehaviour {
-
-        private enum CameraAction { TrackPlayer, TransitionRooms }
+        private enum CameraAction {
+            TrackPlayer,
+            TransitionRooms,
+            Reset
+        }
 
         [SerializeField] private PlayerBehaviour _player;
         [SerializeField] private CurrentRoomBehaviour _currentRoom;
@@ -17,11 +20,15 @@ namespace Assets.Scripts.Camera {
         private Vector3 _currentCameraVelocity;
         private CameraAction _currentCameraAction = CameraAction.TrackPlayer;
 
-        public Action CameraTransistionedRooms { get; set; }
+        public Action CameraReturnedToTrackingPlayer { get; set; }
+
+        public void ResetCamera() {
+            _currentCameraAction = CameraAction.Reset;
+        }
 
         public void Awake() {
             _currentRoomModel = _currentRoom.CurrentRoomModel;
-            CameraTransistionedRooms += () => { };
+            CameraReturnedToTrackingPlayer += () => { };
         }
 
         public void Start() {
@@ -55,16 +62,23 @@ namespace Assets.Scripts.Camera {
             switch (_currentCameraAction) {
                 case CameraAction.TrackPlayer: {
                     transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.05f);
-                    break; 
+                    break;
                 }
 
                 case CameraAction.TransitionRooms: {
                     transform.position = Vector3.SmoothDamp(transform.position, targetDestination, ref _currentCameraVelocity, 0.2f);
 
                     if (Vector2Util.WithinRange(targetDestination, transform.position, 0.01f)) {
-                        CameraTransistionedRooms();
+                        CameraReturnedToTrackingPlayer();
                         _currentCameraAction = CameraAction.TrackPlayer;
                     }
+                    break;
+                }
+
+                case CameraAction.Reset: {
+                    transform.position = targetDestination;
+                    CameraReturnedToTrackingPlayer();
+                    _currentCameraAction = CameraAction.TrackPlayer;
                     break;
                 }
             }

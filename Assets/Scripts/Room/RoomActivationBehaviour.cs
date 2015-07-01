@@ -25,13 +25,13 @@ namespace Assets.Scripts.Room {
         }
 
         private void RegisterDeactivateRoomCallback(RoomBehaviour fromRoom, RoomBehaviour toRoom) {
-            _mainCamera.CameraTransistionedRooms -= _deactivateRoom;
+            _mainCamera.CameraReturnedToTrackingPlayer -= _deactivateRoom;
 
             _deactivateRoom = () => {
                 fromRoom.Deactivate();
-                _mainCamera.CameraTransistionedRooms -= _deactivateRoom;
+                _mainCamera.CameraReturnedToTrackingPlayer -= _deactivateRoom;
             };
-            _mainCamera.CameraTransistionedRooms += _deactivateRoom;
+            _mainCamera.CameraReturnedToTrackingPlayer += _deactivateRoom;
         }
     }
 }

@@ -101,11 +101,15 @@ namespace Assets.Scripts.Room {
             Vector2 cameraTarget = player.transform.position;
             _mainCamera.gameObject.transform.Translate(cameraTarget, _mainCamera.gameObject.transform);
 
-            _mainCamera.CameraTransistionedRooms += CameraUpdated(player);
+            _mainCamera.CameraReturnedToTrackingPlayer += CameraUpdated(player);
 
             opposingRoom.Activate();
 
             OldAreaFadeOutFinished(this);
+
+            // FIXME: Implicit dependency on the fact that the above call updates the current room, which in turn
+            //        updates the camera target
+            _mainCamera.ResetCamera();
         }
 
         private void PlayerOnScreen() {
@@ -116,7 +120,7 @@ namespace Assets.Scripts.Room {
             Action del = null;
             del = () => {
                 player.StartCoroutine(FadeInCoroutine());
-                _mainCamera.CameraTransistionedRooms -= del;
+                _mainCamera.CameraReturnedToTrackingPlayer -= del;
                 player.PlayerModel.PlayerController = new MoveInDirectionPlayerController(OpposingAreaTransition.ExitDirection * -1);
             };
             return del;
