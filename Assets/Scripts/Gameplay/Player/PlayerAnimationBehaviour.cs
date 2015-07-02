@@ -30,11 +30,13 @@ namespace Assets.Scripts.Gameplay.Player {
 
         public void Start() {
             _playerModel.DoAttack += PlayAttack;
+            _playerModel.DoJump += PlayJump;
             _healthModel.HurtBy += PlayHurt;
         }
 
         public void OnDestroy() {
             _playerModel.DoAttack -= PlayAttack;
+            _playerModel.DoJump -= PlayJump;
             _healthModel.HurtBy -= PlayHurt;
         }
 
@@ -59,6 +61,10 @@ namespace Assets.Scripts.Gameplay.Player {
 
         private void PlayAttack() {
             _animator.SetTrigger("attack");
+        }
+
+        private void PlayJump() {
+            _animator.SetTrigger("jump");
         }
 
         private void PlayHurt(DamageBehaviour damage) {

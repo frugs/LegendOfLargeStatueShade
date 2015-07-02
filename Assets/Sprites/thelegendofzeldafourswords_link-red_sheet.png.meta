@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bd61a8379265f1540b9db4a46a8b73c6
-timeCreated: 1434401486
+timeCreated: 1435879652
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -1084,8 +1084,8 @@ TextureImporter:
         y: 2410
         width: 18
         height: 24
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_39
       rect:
@@ -1094,58 +1094,58 @@ TextureImporter:
         y: 2413
         width: 18
         height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_40
       rect:
         serializedVersion: 2
         x: 155
-        y: 2413
+        y: 2403
         width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_41
       rect:
         serializedVersion: 2
         x: 185
-        y: 2412
+        y: 2403
         width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 29
+      alignment: 9
+      pivot: {x: .5, y: .25}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_42
       rect:
         serializedVersion: 2
         x: 216
-        y: 2413
+        y: 2403
         width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 29
+      alignment: 9
+      pivot: {x: .5, y: .150000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_43
       rect:
         serializedVersion: 2
         x: 245
-        y: 2413
+        y: 2408
         width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 27
+      alignment: 9
+      pivot: {x: .5, y: .150000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_44
       rect:
         serializedVersion: 2
         x: 275
-        y: 2413
+        y: 2409
         width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 25
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_45
       rect:
@@ -1154,8 +1154,8 @@ TextureImporter:
         y: 2410
         width: 19
         height: 24
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_46
       rect:
@@ -1221,9 +1221,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 2379
+        y: 2381
         width: 21
-        height: 27
+        height: 25
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3014,8 +3014,8 @@ TextureImporter:
         y: 1631
         width: 18
         height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_232
       rect:
@@ -3024,58 +3024,58 @@ TextureImporter:
         y: 1632
         width: 18
         height: 20
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_233
       rect:
         serializedVersion: 2
-        x: 156
-        y: 1633
+        x: 157
+        y: 1624
         width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_234
       rect:
         serializedVersion: 2
         x: 185
-        y: 1633
+        y: 1624
         width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .25}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_235
       rect:
         serializedVersion: 2
         x: 215
-        y: 1633
+        y: 1624
         width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .150000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_236
       rect:
         serializedVersion: 2
         x: 245
-        y: 1633
+        y: 1624
         width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .25}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_237
       rect:
         serializedVersion: 2
         x: 275
-        y: 1633
+        y: 1628
         width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 28
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_238
       rect:
@@ -3084,8 +3084,8 @@ TextureImporter:
         y: 1632
         width: 18
         height: 21
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .25}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_239
       rect:
@@ -3094,8 +3094,8 @@ TextureImporter:
         y: 1632
         width: 18
         height: 20
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: thelegendofzeldafourswords_link-red_sheet_240
       rect:

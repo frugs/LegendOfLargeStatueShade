@@ -11,7 +11,7 @@ namespace Assets.Scripts.Gameplay.Player {
 
         public PlayerControls ControlPlayer() {
             var movementDirection = new Vector2(Input.GetAxis(InputMappings.Horizontal), Input.GetAxis(InputMappings.Vertical));
-            return new PlayerControls(movementDirection, Input.GetButtonDown(InputMappings.Attack));
+            return new PlayerControls(movementDirection, Input.GetButtonDown(InputMappings.Attack), Input.GetButtonDown(InputMappings.Jump));
         }
     }
 }

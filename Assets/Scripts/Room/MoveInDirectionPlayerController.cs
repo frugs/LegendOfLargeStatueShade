@@ -12,7 +12,7 @@ namespace Assets.Scripts.Room {
         }
 
         public PlayerControls ControlPlayer() {
-            return new PlayerControls(_movementDirection, false);
+            return new PlayerControls(_movementDirection, false, false);
         }
     }
 }
